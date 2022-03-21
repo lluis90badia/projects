@@ -1,4 +1,4 @@
-# projects
+# Ironhack Data Analyst Bootcamp Projects
 This repository groups the projects that I have developed or in which I have collaborated.
 
 
