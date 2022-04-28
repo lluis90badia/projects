@@ -14,13 +14,16 @@ Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/lbadialabwork
 
 ## Finalidad
 
-Uno de nuestros socios capitalistas nos ha pedido una lista completa de los coches que se han vendido durante los últimos meses con sus características.
+Uno de los socios capitalistas ha pedido una lista completa de los coches que se han vendido durante los últimos meses con sus características.
 
-Por esta razón, además de la lista que contiene los coches vendidos y en stock, se ha aprovechado este requerimiento para actualizar los datos de 
+Por esta razón, además de la lista que contiene los coches vendidos y en stock, se ha aprovechado este requerimiento para actualizar los datos de la empresa a lo que se refiere a empleados y clientes.
 
 ## Pasos realizados
 
+Esta es la información que se ha recopilado para cada entidad ([archivos CSV](https://github.com/lluis90badia/projects/tree/main/proyecto_SQL_concesionario/archivos_csv)):
 
+- Para los coches, se ha dividio entre marcas, modelos y características que agrupan toda la información.
+- 
 
 ## Esquema E/R
 
@@ -32,8 +35,7 @@ Por esta razón, además de la lista que contiene los coches vendidos y en stock
 
 ## Relaciones
 
+En este último apartado, se han efectuado una serie de consultas para comprobar las [relaciones](https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/comprov_relaciones_tablas.txt) entre las entidades que agrupa el modelo.
 
-[archivos CSV](https://github.com/lluis90badia/projects/tree/main/proyecto_SQL_concesionario/archivos_csv)
 [SQL](https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/concesionario.sql)
 [PDF](https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/Proyecto_SQL_concesionario.pdf)
-[relaciones](https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/comprov_relaciones_tablas.txt)
