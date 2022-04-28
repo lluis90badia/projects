@@ -1,6 +1,6 @@
 # Syrian Civil War: a Refugee/Asylum geographical dispersion approach based on gender and group ages (2011-2021)
 
-By [Lluis Badia Planes](https://github.com/lluis90badia/lbadialabwork), 18/3/2022
+By [Lluis Badia Planes](https://github.com/lluis90badia/projects), 18/3/2022
 
 ## Contents 
 
