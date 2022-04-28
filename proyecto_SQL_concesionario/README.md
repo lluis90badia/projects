@@ -22,7 +22,7 @@ Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/lbadialabwork
 
 ## Esquema E/R
 
-<p align="center"><img src="https://github.com/lluis90badia/lbadialabwork/blob/main/proyecto_SQL_concesionario/imagenes_modelos/esquema_er.png"  height="500"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/imagenes_modelos/esquema_er.png"  height="500"></p>
 
 ## Modelo Relacional
 
