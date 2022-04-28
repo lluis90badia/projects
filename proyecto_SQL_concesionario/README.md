@@ -26,7 +26,7 @@ Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/lbadialabwork
 
 ## Modelo Relacional
 
-<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/imagenes_modelos/modelo_relacional.PNG"  height="450"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/imagenes_modelos/modelo_relacional.PNG"  height="500"></p>
 
 ## Relaciones
 
