@@ -9,5 +9,5 @@ Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/lbadialabwork
 [PDF](https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/Proyecto_SQL_concesionario.pdf)
 [relaciones](https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/comprov_relaciones_tablas.txt)
 
-- [Finalidad](https://github.com/lluis90badia/lbadialabwork/blob/main/proyecto_SQL_concesionario/README.md#finalidad)
-- [Pasos realizados](https://github.com/lluis90badia/lbadialabwork/blob/main/proyecto_SQL_concesionario/README.md#pasos-realizados)
+- [Finalidad]
+- [Pasos realizados]
