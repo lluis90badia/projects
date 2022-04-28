@@ -2,7 +2,7 @@
 
 Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/lbadialabwork)
 
-<p align="center"><img src="https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/usedcardealer1_0.jpg" height="500"></p>
+<p align="center"><img src="https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/usedcardealer1_0.jpg" height="400"></p>
 
 ## Contenido
 
