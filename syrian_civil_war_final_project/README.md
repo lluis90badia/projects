@@ -2,6 +2,8 @@
 
 By [Lluis Badia Planes](https://github.com/lluis90badia/projects), 18/3/2022
 
+<p align="center"><img src="https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/images/idp_2014.PNG"  height="500"></p>
+
 ## Contents 
 
 - [Purpose](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/README.md#purpose)
