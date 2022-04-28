@@ -1,0 +1,121 @@
+id_carac,id_mod,tipo,plazas,color,puertas,motor,combustible,kilometraje
+1,58,Todo Terreno,7,Azul,4,579,Híbrido,7389
+2,80,Sedan,7,Negro,4,615,Eléctrico,13166
+3,9,Deportivo,2,Rojo,3,713,Gasolina,156905
+4,71,Todo Terreno,5,Gris,4,382,Gasolina,133701
+5,55,Económico,5,Rojo,5,749,Gasolina,148651
+6,19,Familiar,5,Gris,5,342,Gasolina,179633
+7,80,Deportivo,3,Negro,5,781,Híbrido,9865
+8,53,Económico,7,Negro,4,474,Gasolina,12481
+9,44,Económico,5,Negro,4,669,Gasoil,275270
+10,80,Económico,4,Rojo,4,199,Híbrido,255810
+11,46,Económico,4,Gris,5,175,Eléctrico,111897
+12,33,Familiar,4,Gris,4,458,Gasolina,23084
+13,53,Económico,5,Negro,3,272,Eléctrico,54284
+14,62,Todo Terreno,5,Negro,3,771,Híbrido,248791
+15,15,Familiar,4,Gris,4,750,Gasolina,278798
+16,34,Familiar,6,Negro,3,505,Gasolina,153058
+17,40,Económico,5,Rojo,3,324,Gasolina,48137
+18,30,Familiar,6,Negro,3,785,Gasolina,181558
+19,16,Familiar,5,Azul,3,604,Eléctrico,138044
+20,47,Económico,3,Negro,4,694,Gasoil,194757
+21,45,Económico,6,Gris,4,435,Híbrido,91256
+22,75,Todo Terreno,3,Gris,4,786,Gasoil,11763
+23,41,Económico,6,Negro,3,219,Gasolina,287603
+24,72,Todo Terreno,3,Blanco,4,344,Eléctrico,120985
+25,30,Familiar,7,Blanco,5,262,Gasoil,206481
+26,78,Todo Terreno,5,Negro,4,342,Híbrido,6725
+27,65,Todo Terreno,5,Rojo,4,775,Gasoil,254924
+28,45,Económico,4,Gris,3,162,Eléctrico,9221
+29,22,Familiar,6,Gris,4,141,Híbrido,216424
+30,14,Económico,7,Gris,3,210,Híbrido,261588
+31,45,Económico,5,Negro,4,680,Gasoil,69714
+32,63,Todo Terreno,6,Rojo,4,366,Eléctrico,266463
+33,79,Deportivo,7,Gris,4,799,Gasolina,176049
+34,4,Económico,3,Negro,4,188,Eléctrico,109294
+35,41,Económico,5,Gris,5,710,Híbrido,116818
+36,3,Deportivo,3,Rojo,4,242,Gasoil,266446
+37,31,Familiar,7,Blanco,5,193,Gasoil,189689
+38,29,Familiar,7,Blanco,3,398,Gasoil,142363
+39,13,Todo Terreno,7,Gris,3,126,Gasolina,123948
+40,25,Familiar,7,Negro,3,724,Gasolina,161810
+41,45,Económico,7,Negro,4,213,Gasolina,31864
+42,67,Furgoneta,5,Blanco,4,631,Híbrido,242967
+43,29,Familiar,4,Gris,3,379,Gasoil,124450
+44,42,Económico,5,Rojo,3,654,Gasoil,120814
+45,27,Familiar,7,Negro,4,442,Híbrido,201403
+46,64,Todo Terreno,6,Azul,3,398,Gasoil,270319
+47,78,Todo Terreno,6,Negro,4,743,Híbrido,288085
+48,23,Familiar,5,Blanco,5,417,Híbrido,294333
+49,67,Furgoneta,7,Blanco,3,123,Híbrido,172899
+50,40,Económico,5,Gris,3,721,Eléctrico,24088
+51,57,Económico,6,Gris,5,721,Eléctrico,146386
+52,7,Deportivo,3,Gris,5,648,Gasoil,150624
+53,72,Todo Terreno,6,Blanco,3,337,Gasoil,216882
+54,31,Familiar,6,Blanco,5,617,Gasoil,64614
+55,34,Familiar,6,Gris,4,599,Eléctrico,91378
+56,52,Económico,4,Rojo,5,411,Híbrido,146981
+57,3,Deportivo,3,Negro,5,681,Híbrido,223810
+58,37,Económico,3,Blanco,3,455,Híbrido,289943
+59,25,Familiar,6,Gris,3,622,Eléctrico,202413
+60,11,Económico,4,Gris,3,356,Gasoil,172798
+61,17,Familiar,7,Gris,4,659,Gasoil,284070
+62,14,Económico,4,Blanco,4,502,Gasolina,15425
+63,57,Sedan,7,Gris,4,146,Gasolina,143320
+64,58,Económico,6,Rojo,4,227,Híbrido,219108
+65,73,Todo Terreno,3,Negro,4,584,Eléctrico,102490
+66,23,Familiar,7,Blanco,3,528,Eléctrico,39622
+67,55,Económico,6,Gris,5,435,Gasolina,200316
+68,50,Económico,2,Rojo,5,760,Gasolina,184702
+69,21,Familiar,6,Negro,5,274,Híbrido,299204
+70,4,Económico,5,Negro,4,358,Gasoil,94395
+71,36,Económico,4,Gris,3,696,Gasolina,258914
+72,34,Familiar,5,Gris,5,363,Gasoil,103172
+73,14,Sedan,5,Blanco,4,652,Híbrido,276817
+74,29,Familiar,5,Azul,4,583,Gasoil,104919
+75,7,Deportivo,3,Blanco,5,768,Híbrido,89631
+76,1,Deportivo,3,Rojo,4,483,Gasolina,212601
+77,42,Económico,4,Gris,5,497,Híbrido,33615
+78,20,Familiar,5,Negro,3,122,Híbrido,78990
+79,55,Económico,6,Blanco,4,706,Gasolina,178277
+80,15,Familiar,6,Gris,4,235,Eléctrico,158587
+81,28,Familiar,4,Blanco,4,137,Híbrido,20996
+82,43,Económico,4,Blanco,3,748,Híbrido,141099
+83,6,Sedan,4,Gris,5,310,Híbrido,183867
+84,17,Familiar,6,Negro,3,189,Gasoil,69602
+85,78,Todo Terreno,5,Blanco,3,311,Gasolina,267731
+86,64,Todo Terreno,5,Negro,3,370,Gasoil,235692
+87,5,Sedan,6,Gris,5,690,Híbrido,277890
+88,66,Todo Terreno,6,Rojo,4,789,Eléctrico,238629
+89,45,Económico,5,Blanco,4,364,Gasoil,27646
+90,14,Sedan,5,Azul,4,451,Híbrido,228790
+91,77,Todo Terreno,6,Negro,5,640,Gasolina,227810
+92,57,Económico,3,Negro,5,766,Híbrido,13535
+93,34,Familiar,5,Gris,5,584,Eléctrico,85544
+94,9,Todo Terreno,6,Negro,5,229,Híbrido,189360
+95,80,Deportivo,5,Blanco,5,590,Gasolina,282866
+96,2,Económico,4,Blanco,4,471,Gasolina,77821
+97,39,Económico,7,Gris,4,509,Híbrido,184920
+98,23,Familiar,6,Rojo,3,681,Gasolina,233604
+99,35,Familiar,6,Blanco,3,385,Gasoil,66645
+100,36,Económico,5,Gris,3,710,Gasoil,215007
+101,23,Sedan,5,Blanco,4,424,Gasolina,85405
+102,39,Económico,5,Negro,4,136,Híbrido,122737
+103,6,Económico,3,Gris,3,517,Gasoil,132591
+104,13,Todo Terreno,6,Rojo,6,245,Gasoil,195888
+105,67,Furgoneta,7,Gris,7,137,Híbrido,106712
+106,23,Sedan,5,Blanco,5,336,Gasolina,158609
+107,45,Deportivo,3,Rojo,3,128,Eléctrico,82034
+108,39,Económico,5,Negro,5,570,Gasoil,84375
+109,8,Sedan,5,Gris,5,236,Gasolina,84936
+110,35,Económico,4,Blanco,5,306,Eléctrico,20883
+111,50,Deportivo,4,Azul,3,400,Gasoil,11777
+112,9,Todo Terreno,6,Azul,5,242,Híbrido,66900
+113,67,Furgoneta,5,Negro,6,148,Gasoil,82240
+114,57,Sedan,5,Azul,5,360,Híbrido,37355
+115,22,Económico,3,Blanco,3,444,Gasolina,188914
+116,5,Económico,5,Gris,3,488,Eléctrico,87905
+117,9,Todo Terreno,6,Negro,7,381,Híbrido,143220
+118,58,Económico,5,Rojo,5,548,Gasolina,94263
+119,59,Económico,5,Blanco,5,294,Eléctrico,165107
+120,22,Sedan,5,Negro,5,459,Gasolina,181813

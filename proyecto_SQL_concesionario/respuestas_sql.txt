@@ -1,0 +1,494 @@
+1. CARGA DEL ARCHIVO SQL:
+
+mysql> source ~/Documentos/concesionario/concesionario.sql;
+Query OK, 9 rows affected (0.11 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected, 1 warning (0.05 sec)
+
+Query OK, 0 rows affected, 1 warning (0.08 sec)
+
+Query OK, 0 rows affected, 1 warning (0.07 sec)
+
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+
+Query OK, 0 rows affected, 1 warning (0.05 sec)
+
+Query OK, 0 rows affected, 2 warnings (0.03 sec)
+
+Query OK, 0 rows affected, 1 warning (0.04 sec)
+
+Query OK, 0 rows affected, 1 warning (0.04 sec)
+
+Query OK, 52 rows affected (0.01 sec)
+Records: 52  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 8136 rows affected (0.28 sec)
+Records: 8136  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 80 rows affected (0.01 sec)
+Records: 80  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 10 rows affected (0.01 sec)
+Records: 10  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 20 rows affected (0.01 sec)
+Records: 20  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 80 rows affected (0.02 sec)
+Records: 80  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 120 rows affected (0.00 sec)
+Records: 120  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 80 rows affected (0.02 sec)
+Records: 80  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 120 rows affected (0.02 sec)
+Records: 120  Deleted: 0  Skipped: 0  Warnings: 0
+
+
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+2. CONSULTAS DE LAS TABLAS:
+
+
+mysql> select*from clientes limit 30;
++-----------+-----------+------------+-----------+-----------+-----------+------------------------+
+| dni_clie  | nombre    | apellido1  | apellido2 | telefono  | municipio | email                  |
++-----------+-----------+------------+-----------+-----------+-----------+------------------------+
+| 10648702G | Keaton    | Carey      | Santana   | 614494376 |      4863 | k.carey@gmail.com      |
+| 11239566G | Jack      | Guerrero   | Carey     | 670455692 |      6256 | j.guerrero@gmail.com   |
+| 11868211X | Hop       | Farrell    | Nguyen    | 610456453 |      7724 | h.farrell@yahoo.com    |
+| 12463957X | Aquila    | Baldwin    | Moran     | 608292526 |      2831 | a.baldwin@yahoo.com    |
+| 12560505B | Ulric     | Forbes     | Pacheco   | 616725641 |        70 | u.forbes@yahoo.com     |
+| 14865218G | Marsden   | Hebert     | Shaw      | 674950871 |      4131 | m.hebert@gmail.com     |
+| 15662466B | Charlotte | Wilder     | Moss      | 623259273 |      1564 | c.wilder@gmail.com     |
+| 17063209F | Claudia   | Cobb       | Morales   | 672904788 |      4129 | c.cobb@gmail.com       |
+| 19764907X | Lucy      | Gamble     | Carter    | 619613384 |      7412 | l.gamble@yahoo.com     |
+| 21136457C | Vincent   | Riddle     | Gay       | 647007256 |      2163 | v.riddle@hotmail.com   |
+| 21186310B | Lois      | Leblanc    | Nieves    | 645443512 |      6537 | l.leblanc@hotmail.com  |
+| 21241074B | Violet    | Villarreal | Bruce     | 682920688 |      3707 | v.villarreal@yahoo.com |
+| 22885498L | Blaze     | Coleman    | Guerra    | 650681852 |      3857 | b.coleman@gmail.com    |
+| 23101310T | Sigourney | Thornton   | Moreno    | 661039641 |      1525 | s.thornton@hotmail.com |
+| 25472174F | Abigail   | Park       | Ray       | 658475580 |      1211 | a.park@yahoo.com       |
+| 30240779T | Minerva   | Sanchez    | Shepherd  | 601306387 |       316 | m.sanchez@hotmail.com  |
+| 31503709H | Leo       | Dale       | Whitfield | 677070218 |      5264 | l.dale@gmail.com       |
+| 33612118H | Tad       | Callahan   | Benson    | 679353738 |       867 | t.callahan@yahoo.com   |
+| 34013041X | Price     | Stark      | Lang      | 690961408 |      7902 | p.stark@hotmail.com    |
+| 34931081X | Charles   | Schultz    | Heath     | 661887047 |       604 | c.schultz@gmail.com    |
+| 35970222C | Beck      | Russo      | Newman    | 690235041 |      1458 | b.russo@hotmail.com    |
+| 36153112G | Piper     | Aguilar    | Ewing     | 672723567 |      1618 | p.aguilar@yahoo.com    |
+| 38903552B | Heidi     | Richard    | Langley   | 601731540 |      7377 | h.richard@gmail.com    |
+| 39201597C | Peter     | Keller     | Rosales   | 643643784 |      4499 | p.keller@gmail.com     |
+| 39743358D | Molly     | Bernard    | Mcmahon   | 653508063 |       742 | m.bernard@gmail.com    |
+| 40762697B | Lance     | Huff       | Fernandez | 626637609 |       858 | l.huff@hotmail.com     |
+| 41362158F | Austin    | Bright     | Campos    | 612035548 |      1394 | a.bright@yahoo.com     |
+| 42296615B | Lucius    | Daugherty  | Lambert   | 621842509 |      1578 | l.daugherty@gmail.com  |
+| 44048661D | Lewis     | Wooten     | Ford      | 630741867 |      1137 | l.wooten@yahoo.com     |
+| 45727454H | Bo        | Stokes     | Salas     | 662157717 |      4247 | b.stokes@gmail.com     |
++-----------+-----------+------------+-----------+-----------+-----------+------------------------+
+30 rows in set (0.00 sec)
+
+
+mysql> select*from empleados;
++-----------+---------+-----------+-----------+-------------+-----------+-----------+----------------------------+
+| dni_emp   | nombre  | apellido1 | apellido2 | cargo       | telefono  | municipio | email                      |
++-----------+---------+-----------+-----------+-------------+-----------+-----------+----------------------------+
+| 21307080X | Donovan | Nguyen    | Nelson    | Encargado/a | 695594099 |      2548 | d.nguyen@fastfurious.com   |
+| 22957043D | Graham  | Perry     | Hendrix   | Vendedor/a  | 646591388 |      6658 | g.perry@fastfurious.com    |
+| 23206895F | Oprah   | Rogers    | Dillon    | Vendedor/a  | 671667394 |      7976 | o.rogers@fastfurious.com   |
+| 30640003L | Malik   | Rollins   | Gallagher | Vendedor/a  | 655137336 |      7709 | m.rollins@fastfurious.com  |
+| 32584198G | Dawn    | England   | Blackburn | Vendedor/a  | 673436346 |      7507 | d.england@fastfurious.com  |
+| 60965636C | Perry   | Wilkins   | Schultz   | Vendedor/a  | 604540027 |      5409 | p.wilkins@fastfurious.com  |
+| 62260524T | Mollie  | Watkins   | Matthews  | Vendedor/a  | 698614051 |      6473 | m.watkins@fastfurious.com  |
+| 63254845D | Asia    | Meyer     | Tucker    | Manager     | 674971829 |      5650 | a.meyer@fastfurious.com    |
+| 70948871F | Sandra  | Ray       | Goodman   | Encargado/a | 671769392 |      3183 | s.ray@fastfurious.com      |
+| 72197981H | Rylee   | Campbell  | Smith     | Vendedor/a  | 681037880 |      4536 | r.campbell@fastfurious.com |
++-----------+---------+-----------+-----------+-------------+-----------+-----------+----------------------------+
+10 rows in set (0.00 sec)
+
+
+mysql> select*from provincias;
++---------+------------------------+
+| id_prov | nombre                 |
++---------+------------------------+
+|       1 | Álava                  |
+|       2 | Albacete               |
+|       3 | Alacant                |
+|       4 | Almería                |
+|       5 | Ávila                  |
+|       6 | Badajoz                |
+|       7 | Illes Balears          |
+|       8 | Barcelona              |
+|       9 | Burgos                 |
+|      10 | Cáceres                |
+|      11 | Cádiz                  |
+|      12 | Castelló               |
+|      13 | Ciudad Real            |
+|      14 | Córdoba                |
+|      15 | Coruña                 |
+|      16 | Cuenca                 |
+|      17 | Girona                 |
+|      18 | Granada                |
+|      19 | Guadalajara            |
+|      20 | Gipuzkoa               |
+|      21 | Huelva                 |
+|      22 | Huesca                 |
+|      23 | Jaén                   |
+|      24 | León                   |
+|      25 | Lleida                 |
+|      26 | Rioja                  |
+|      27 | Lugo                   |
+|      28 | Madrid                 |
+|      29 | Málaga                 |
+|      30 | Murcia                 |
+|      31 | Navarra                |
+|      32 | Ourense                |
+|      33 | Asturias               |
+|      34 | Palencia               |
+|      35 | Las Palmas             |
+|      36 | Pontevedra             |
+|      37 | Salamanca              |
+|      38 | Santa Cruz de Tenerife |
+|      39 | Cantabria              |
+|      40 | Segovia                |
+|      41 | Sevilla                |
+|      42 | Soria                  |
+|      43 | Tarragona              |
+|      44 | Teruel                 |
+|      45 | Toledo                 |
+|      46 | València               |
+|      47 | Valladolid             |
+|      48 | Bizkaia                |
+|      49 | Zamora                 |
+|      50 | Zaragoza               |
+|      51 | Ceuta                  |
+|      52 | Melilla                |
++---------+------------------------+
+52 rows in set (0.00 sec)
+
+
+mysql> select*from municipios limit 50;
++--------+-----------------------------+---------+
+| id_mun | nombre                      | id_prov |
++--------+-----------------------------+---------+
+|      1 | Abengibre                   |       2 |
+|      2 | Alatoz                      |       2 |
+|      3 | Albacete                    |       2 |
+|      4 | Albatana                    |       2 |
+|      5 | Alborea                     |       2 |
+|      6 | Alcadozo                    |       2 |
+|      7 | Alcalá del Júcar            |       2 |
+|      8 | Alcaraz                     |       2 |
+|      9 | Almansa                     |       2 |
+|     10 | Alpera                      |       2 |
+|     11 | Ayna                        |       2 |
+|     12 | Balazote                    |       2 |
+|     13 | Ballestero                  |       2 |
+|     14 | Balsa de Ves                |       2 |
+|     15 | Barrax                      |       2 |
+|     16 | Bienservida                 |       2 |
+|     17 | Bogarra                     |       2 |
+|     18 | Bonete                      |       2 |
+|     19 | Bonillo                     |       2 |
+|     20 | Carcelén                    |       2 |
+|     21 | Casas de Juan Núñez         |       2 |
+|     22 | Casas de Lázaro             |       2 |
+|     23 | Casas de Ves                |       2 |
+|     24 | Casas-Ibáñez                |       2 |
+|     25 | Caudete                     |       2 |
+|     26 | Cenizate                    |       2 |
+|     27 | Chinchilla de Monte-Aragón  |       2 |
+|     28 | Corral-Rubio                |       2 |
+|     29 | Cotillas                    |       2 |
+|     30 | Elche de la Sierra          |       2 |
+|     31 | Férez                       |       2 |
+|     32 | Fuensanta                   |       2 |
+|     33 | Fuente-Álamo                |       2 |
+|     34 | Fuentealbilla               |       2 |
+|     35 | Gineta                      |       2 |
+|     36 | Golosalvo                   |       2 |
+|     37 | Hellín                      |       2 |
+|     38 | Herrera                     |       2 |
+|     39 | Higueruela                  |       2 |
+|     40 | Hoya-Gonzalo                |       2 |
+|     41 | Jorquera                    |       2 |
+|     42 | Letur                       |       2 |
+|     43 | Lezuza                      |       2 |
+|     44 | Liétor                      |       2 |
+|     45 | Madrigueras                 |       2 |
+|     46 | Mahora                      |       2 |
+|     47 | Masegoso                    |       2 |
+|     48 | Minaya                      |       2 |
+|     49 | Molinicos                   |       2 |
+|     50 | Montalvos                   |       2 |
++--------+-----------------------------+---------+
+50 rows in set (0.00 sec)
+
+
+mysql> select*from marcas;
++--------+---------------+
+| id_mar | nombre        |
++--------+---------------+
+|      1 | Seat          |
+|      2 | Toyota        |
+|      3 | Volvo         |
+|      4 | Renault       |
+|      5 | Dacia         |
+|      6 | Kia           |
+|      7 | BMW           |
+|      8 | Opel          |
+|      9 | Nissan        |
+|     10 | Lexus         |
+|     11 | Volkswagen    |
+|     12 | Mercedes-Benz |
+|     13 | Audi          |
+|     14 | Ford          |
+|     15 | Honda         |
+|     16 | Fiat          |
+|     17 | Citroën       |
+|     18 | Land Rover    |
+|     19 | Mazda         |
+|     20 | Jeep          |
++--------+---------------+
+20 rows in set (0.00 sec)
+
+
+mysql> select*from modelos limit 50;
++--------+--------+----------+
+| id_mod | id_mar | nombre   |
++--------+--------+----------+
+|      1 |      7 | Serie 1  |
+|      2 |      2 | Yaris    |
+|      3 |     12 | Clase A  |
+|      4 |     16 | Tipo     |
+|      5 |     13 | A3       |
+|      6 |     19 | CX-3     |
+|      7 |     17 | C3       |
+|      8 |     11 | Polo     |
+|      9 |     18 | Evoque   |
+|     10 |      1 | Ibiza    |
+|     11 |     15 | Civic    |
+|     12 |      6 | Rio      |
+|     13 |     20 | Renegade |
+|     14 |      2 | Corolla  |
+|     15 |     17 | C4       |
+|     16 |     15 | Civic    |
+|     17 |     14 | Fiesta   |
+|     18 |      4 | Clio     |
+|     19 |     11 | Golf     |
+|     20 |     20 | Compass  |
+|     21 |      5 | Spring   |
+|     22 |      1 | Ibiza    |
+|     23 |     17 | C4       |
+|     24 |      1 | León     |
+|     25 |      6 | Rio      |
+|     26 |     14 | Focus    |
+|     27 |     17 | C1       |
+|     28 |      1 | León     |
+|     29 |     15 | CR-V     |
+|     30 |     19 | Mazda3   |
+|     31 |      3 | XC40     |
+|     32 |      5 | Sandero  |
+|     33 |     13 | A4       |
+|     34 |      6 | Picanto  |
+|     35 |      1 | Ibiza    |
+|     36 |      8 | Astra    |
+|     37 |     15 | Civic    |
+|     38 |      9 | Juke     |
+|     39 |      6 | Ceed     |
+|     40 |      2 | Prius    |
+|     41 |     11 | Golf     |
+|     42 |     16 | 500      |
+|     43 |      9 | Qashqai  |
+|     44 |      5 | Duster   |
+|     45 |     12 | Clase C  |
+|     46 |     17 | C1       |
+|     47 |      6 | Rio      |
+|     48 |      9 | Qashqai  |
+|     49 |     13 | A6       |
+|     50 |     19 | Mazda3   |
++--------+--------+----------+
+50 rows in set (0.00 sec)
+
+
+mysql> select*from caracteristicas limit 50;
++----------+--------+--------------+--------+--------+---------+-------+-------------+-------------+
+| id_carac | id_mod | tipo         | plazas | color  | puertas | motor | combustible | kilometraje |
++----------+--------+--------------+--------+--------+---------+-------+-------------+-------------+
+|        1 |     58 | Todo Terreno | 7      | Azul   |       4 | 579   | Híbrido     | 7389        |
+|        2 |     80 | Sedan        | 7      | Negro  |       4 | 615   | Eléctrico   | 13166       |
+|        3 |      9 | Deportivo    | 2      | Rojo   |       3 | 713   | Gasolina    | 156905      |
+|        4 |     71 | Todo Terreno | 5      | Gris   |       4 | 382   | Gasolina    | 133701      |
+|        5 |     55 | Económico    | 5      | Rojo   |       5 | 749   | Gasolina    | 148651      |
+|        6 |     19 | Familiar     | 5      | Gris   |       5 | 342   | Gasolina    | 179633      |
+|        7 |     80 | Deportivo    | 3      | Negro  |       5 | 781   | Híbrido     | 9865        |
+|        8 |     53 | Económico    | 7      | Negro  |       4 | 474   | Gasolina    | 12481       |
+|        9 |     44 | Económico    | 5      | Negro  |       4 | 669   | Gasoil      | 275270      |
+|       10 |     80 | Económico    | 4      | Rojo   |       4 | 199   | Híbrido     | 255810      |
+|       11 |     46 | Económico    | 4      | Gris   |       5 | 175   | Eléctrico   | 111897      |
+|       12 |     33 | Familiar     | 4      | Gris   |       4 | 458   | Gasolina    | 23084       |
+|       13 |     53 | Económico    | 5      | Negro  |       3 | 272   | Eléctrico   | 54284       |
+|       14 |     62 | Todo Terreno | 5      | Negro  |       3 | 771   | Híbrido     | 248791      |
+|       15 |     15 | Familiar     | 4      | Gris   |       4 | 750   | Gasolina    | 278798      |
+|       16 |     34 | Familiar     | 6      | Negro  |       3 | 505   | Gasolina    | 153058      |
+|       17 |     40 | Económico    | 5      | Rojo   |       3 | 324   | Gasolina    | 48137       |
+|       18 |     30 | Familiar     | 6      | Negro  |       3 | 785   | Gasolina    | 181558      |
+|       19 |     16 | Familiar     | 5      | Azul   |       3 | 604   | Eléctrico   | 138044      |
+|       20 |     47 | Económico    | 3      | Negro  |       4 | 694   | Gasoil      | 194757      |
+|       21 |     45 | Económico    | 6      | Gris   |       4 | 435   | Híbrido     | 91256       |
+|       22 |     75 | Todo Terreno | 3      | Gris   |       4 | 786   | Gasoil      | 11763       |
+|       23 |     41 | Económico    | 6      | Negro  |       3 | 219   | Gasolina    | 287603      |
+|       24 |     72 | Todo Terreno | 3      | Blanco |       4 | 344   | Eléctrico   | 120985      |
+|       25 |     30 | Familiar     | 7      | Blanco |       5 | 262   | Gasoil      | 206481      |
+|       26 |     78 | Todo Terreno | 5      | Negro  |       4 | 342   | Híbrido     | 6725        |
+|       27 |     65 | Todo Terreno | 5      | Rojo   |       4 | 775   | Gasoil      | 254924      |
+|       28 |     45 | Económico    | 4      | Gris   |       3 | 162   | Eléctrico   | 9221        |
+|       29 |     22 | Familiar     | 6      | Gris   |       4 | 141   | Híbrido     | 216424      |
+|       30 |     14 | Económico    | 7      | Gris   |       3 | 210   | Híbrido     | 261588      |
+|       31 |     45 | Económico    | 5      | Negro  |       4 | 680   | Gasoil      | 69714       |
+|       32 |     63 | Todo Terreno | 6      | Rojo   |       4 | 366   | Eléctrico   | 266463      |
+|       33 |     79 | Deportivo    | 7      | Gris   |       4 | 799   | Gasolina    | 176049      |
+|       34 |      4 | Económico    | 3      | Negro  |       4 | 188   | Eléctrico   | 109294      |
+|       35 |     41 | Económico    | 5      | Gris   |       5 | 710   | Híbrido     | 116818      |
+|       36 |      3 | Deportivo    | 3      | Rojo   |       4 | 242   | Gasoil      | 266446      |
+|       37 |     31 | Familiar     | 7      | Blanco |       5 | 193   | Gasoil      | 189689      |
+|       38 |     29 | Familiar     | 7      | Blanco |       3 | 398   | Gasoil      | 142363      |
+|       39 |     13 | Todo Terreno | 7      | Gris   |       3 | 126   | Gasolina    | 123948      |
+|       40 |     25 | Familiar     | 7      | Negro  |       3 | 724   | Gasolina    | 161810      |
+|       41 |     45 | Económico    | 7      | Negro  |       4 | 213   | Gasolina    | 31864       |
+|       42 |     67 | Furgoneta    | 5      | Blanco |       4 | 631   | Híbrido     | 242967      |
+|       43 |     29 | Familiar     | 4      | Gris   |       3 | 379   | Gasoil      | 124450      |
+|       44 |     42 | Económico    | 5      | Rojo   |       3 | 654   | Gasoil      | 120814      |
+|       45 |     27 | Familiar     | 7      | Negro  |       4 | 442   | Híbrido     | 201403      |
+|       46 |     64 | Todo Terreno | 6      | Azul   |       3 | 398   | Gasoil      | 270319      |
+|       47 |     78 | Todo Terreno | 6      | Negro  |       4 | 743   | Híbrido     | 288085      |
+|       48 |     23 | Familiar     | 5      | Blanco |       5 | 417   | Híbrido     | 294333      |
+|       49 |     67 | Furgoneta    | 7      | Blanco |       3 | 123   | Híbrido     | 172899      |
+|       50 |     40 | Económico    | 5      | Gris   |       3 | 721   | Eléctrico   | 24088       |
++----------+--------+--------------+--------+--------+---------+-------+-------------+-------------+
+50 rows in set (0.00 sec)
+
+
+mysql> select*from coches limit 50;
++-----------+--------+----------+----------+
+| matricula | id_mod | precio   | año_fab  |
++-----------+--------+----------+----------+
+| 1011FEU   |     43 | 26499.00 | 2006     |
+| 1058KSC   |     49 |  4616.00 | 2015     |
+| 1155NBU   |     20 | 32047.00 | 2002     |
+| 1178GGU   |     75 | 36123.00 | 2013     |
+| 1341KHW   |     24 | 39870.00 | 2014     |
+| 1407JFR   |     49 |  2387.00 | 2002     |
+| 1518CGZ   |     19 | 24364.00 | 2006     |
+| 1550GEV   |     72 | 10677.00 | 2013     |
+| 1556KMW   |      4 | 36961.00 | 2016     |
+| 1610DKL   |     22 | 10089.00 | 2008     |
+| 1680DCY   |     27 | 19275.00 | 2014     |
+| 1816BFU   |     34 | 21543.00 | 2014     |
+| 1937EMR   |     11 | 36174.00 | 2019     |
+| 1937JMV   |     48 | 37878.00 | 2016     |
+| 1952KCX   |     20 | 20601.00 | 2003     |
+| 1981CCX   |      3 | 28830.00 | 2017     |
+| 1995KIW   |     39 | 13108.00 | 2010     |
+| 1996KKX   |     72 |  3056.00 | 2006     |
+| 2101HJU   |     59 | 13641.00 | 2002     |
+| 2143EGU   |     60 | 11508.00 | 2017     |
+| 2389HHM   |     31 | 11527.00 | 2011     |
+| 2398MNB   |     17 | 12872.00 | 2014     |
+| 2459NKV   |      4 | 37694.00 | 2000     |
+| 2461KLT   |     39 | 14125.00 | 2015     |
+| 2468CCR   |     48 | 19344.00 | 2019     |
+| 2486JJZ   |     28 |  9932.00 | 2005     |
+| 2501FLR   |     48 | 28423.00 | 2006     |
+| 2756MFS   |     59 | 13504.00 | 2007     |
+| 2905BBW   |      3 | 20443.00 | 2011     |
+| 2935NXX   |     36 | 22051.00 | 2008     |
+| 2978FGX   |     41 |  4738.00 | 2007     |
+| 3002ELU   |     24 | 20390.00 | 2015     |
+| 3159LBW   |     22 |  3625.00 | 2002     |
+| 3344BCR   |     54 |  9314.00 | 2011     |
+| 3365GTW   |     50 |  5347.00 | 2010     |
+| 3392FIU   |     13 | 11036.00 | 2014     |
+| 3443BCR   |     11 |  4278.00 | 2004     |
+| 3481DDY   |     24 | 36881.00 | 2009     |
+| 3520RWC   |     41 | 15486.00 | 2015     |
+| 3645SVL   |     12 |  4577.00 | 2006     |
+| 4034JEX   |     38 |  8615.00 | 2015     |
+| 4062HHL   |     79 | 13818.00 | 2009     |
+| 4087DPK   |     12 | 19286.00 | 2014     |
+| 4120DDP   |     40 | 13493.00 | 2008     |
+| 4212TMN   |     63 | 12875.00 | 2019     |
+| 4237XFN   |     42 | 17089.00 | 2019     |
+| 4377IFV   |     45 | 31266.00 | 2015     |
+| 4386MDV   |      7 |  5465.00 | 2013     |
+| 4402MZT   |     54 | 18336.00 | 2015     |
+| 4563EIW   |     65 | 10185.00 | 2002     |
++-----------+--------+----------+----------+
+50 rows in set (0.00 sec)
+
+
+mysql> select*from ventas limit 50;
++-----------+-----------+-----------+------------+----------+
+| matricula | dni_clie  | dni_emp   | f_venta    | p_venta  |
++-----------+-----------+-----------+------------+----------+
+| 1011FEU   | 82544992C | 70948871F | 2020-04-28 | 27823.95 |
+| 1155NBU   | 79194481F | 70948871F | 2020-04-30 | 33649.35 |
+| 1178GGU   | 12463957X | 70948871F | 2020-12-11 | 37929.15 |
+| 1341KHW   | 33612118H | 62260524T | 2020-08-27 | 41863.50 |
+| 1407JFR   | 11239566G | 21307080X | 2020-04-20 |  2506.35 |
+| 1518CGZ   | 71780076G | 60965636C | 2020-12-21 | 25582.20 |
+| 1550GEV   | 71765613T | 22957043D | 2020-05-18 | 11210.85 |
+| 1556KMW   | 49845159L | 63254845D | 2020-07-22 | 38809.05 |
+| 1680DCY   | 98821178F | 22957043D | 2020-09-08 | 20238.75 |
+| 1816BFU   | 79156946L | 23206895F | 2020-06-30 | 22620.15 |
+| 1937EMR   | 98453753F | 21307080X | 2020-05-04 | 37982.70 |
+| 1937JMV   | 48843326L | 30640003L | 2020-09-04 | 39771.90 |
+| 1952KCX   | 80983820H | 32584198G | 2020-06-21 | 21631.05 |
+| 1981CCX   | 40762697B | 22957043D | 2020-04-23 | 30271.50 |
+| 1995KIW   | 88902018T | 32584198G | 2020-08-14 | 13763.40 |
+| 1996KKX   | 47770609C | 62260524T | 2020-04-08 |  3208.80 |
+| 2101HJU   | 52548917G | 30640003L | 2021-02-28 | 14323.05 |
+| 2143EGU   | 21241074B | 70948871F | 2021-01-14 | 12083.40 |
+| 2459NKV   | 86298193D | 23206895F | 2021-03-16 | 39578.70 |
+| 2486JJZ   | 62006528C | 21307080X | 2020-10-15 | 10428.60 |
+| 2501FLR   | 41362158F | 30640003L | 2020-11-13 | 29844.15 |
+| 2978FGX   | 64802718D | 22957043D | 2020-08-02 |  4974.90 |
+| 3002ELU   | 19764907X | 23206895F | 2020-05-03 | 21409.50 |
+| 3159LBW   | 85005671D | 70948871F | 2020-06-09 |  3806.25 |
+| 3344BCR   | 64955205H | 70948871F | 2020-02-25 |  9779.70 |
+| 3392FIU   | 39201597C | 62260524T | 2020-02-24 | 11587.80 |
+| 3443BCR   | 45727454H | 60965636C | 2021-02-19 |  4491.90 |
+| 3481DDY   | 87776856X | 21307080X | 2020-10-09 | 38725.05 |
+| 4034JEX   | 64701277H | 72197981H | 2020-10-08 |  9045.75 |
+| 4377IFV   | 78220181F | 62260524T | 2020-09-02 | 32829.30 |
+| 4386MDV   | 69137870T | 62260524T | 2020-06-06 |  5738.25 |
+| 4563EIW   | 62457166D | 60965636C | 2020-10-04 | 10694.25 |
+| 4670IKU   | 81099469T | 30640003L | 2020-06-19 | 11278.05 |
+| 4677NIX   | 38903552B | 60965636C | 2020-10-09 | 31022.25 |
+| 4734KNS   | 70487232F | 62260524T | 2020-10-10 | 11716.95 |
+| 4864KNW   | 15662466B | 32584198G | 2021-03-02 | 28221.90 |
+| 5174KLZ   | 64639144B | 32584198G | 2020-11-14 | 16345.35 |
+| 5198CNW   | 54052992X | 72197981H | 2020-09-04 |  5162.85 |
+| 5369NIY   | 30240779T | 32584198G | 2020-06-07 | 14601.30 |
+| 5731GDR   | 11868211X | 63254845D | 2021-01-24 | 30479.40 |
+| 5745EHT   | 70854956B | 63254845D | 2020-10-05 | 24566.85 |
+| 5851MLT   | 78131788G | 63254845D | 2020-12-29 | 38286.15 |
+| 5879ENT   | 31503709H | 60965636C | 2020-11-14 | 19596.15 |
+| 5950HNU   | 69019369H | 21307080X | 2020-04-24 |  3781.05 |
+| 6002KHR   | 14865218G | 63254845D | 2021-01-04 |  2900.10 |
+| 6175JGV   | 96718099D | 60965636C | 2020-03-20 | 14982.45 |
+| 6377NLT   | 12560505B | 30640003L | 2020-04-26 | 36605.10 |
+| 6450LDV   | 34931081X | 23206895F | 2021-01-02 |  6113.10 |
+| 6552HHY   | 50868378C | 30640003L | 2020-09-03 |  3098.55 |
+| 6652KCV   | 10648702G | 72197981H | 2021-01-02 | 27959.40 |
++-----------+-----------+-----------+------------+----------+
+50 rows in set (0.00 sec)
+
+

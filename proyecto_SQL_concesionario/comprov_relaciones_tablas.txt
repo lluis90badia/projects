@@ -1,0 +1,174 @@
+            
+                                    COMPROVACIÓN DE RELACIONES ENTRE TABLAS
+
+
+Saber las matriculas de las ventas que ha hecho el vendedor/a de nombre 'Asia' con sus apellidos junto a su dni:
+
+
+mysql> select v.matricula, e.nombre, e.apellido1, e.apellido2, v.dni_emp from ventas v inner join empleados e on v.dni_emp=e.dni_emp where e.nombre in (select nombre from empleados where nombre='Asia');
+
++-----------+--------+-----------+-----------+-----------+
+| matricula | nombre | apellido1 | apellido2 | dni_emp   |
++-----------+--------+-----------+-----------+-----------+
+| 1556KMW   | Asia   | Meyer     | Tucker    | 63254845D |
+| 5731GDR   | Asia   | Meyer     | Tucker    | 63254845D |
+| 5745EHT   | Asia   | Meyer     | Tucker    | 63254845D |
+| 5851MLT   | Asia   | Meyer     | Tucker    | 63254845D |
+| 6002KHR   | Asia   | Meyer     | Tucker    | 63254845D |
+| 7994JMS   | Asia   | Meyer     | Tucker    | 63254845D |
+| 9287IHR   | Asia   | Meyer     | Tucker    | 63254845D |
+| 9333JGW   | Asia   | Meyer     | Tucker    | 63254845D |
++-----------+--------+-----------+-----------+-----------+
+8 rows in set (0.00 sec)
+
+
+*********************************************************************************************************************
+
+Saber las características que tienen el modelo "Ibiza":
+
+
+mysql> select c.* from caracteristicas c, modelos m where c.id_mod=m.id_mod and m.nombre="Ibiza";
+
++----------+--------+--------------+--------+--------+---------+-------+-------------+-------------+
+| id_carac | id_mod | tipo         | plazas | color  | puertas | motor | combustible | kilometraje |
++----------+--------+--------------+--------+--------+---------+-------+-------------+-------------+
+|       29 |     22 | Familiar     | 6      | Gris   |       4 | 141   | Híbrido     | 216424      |
+|      115 |     22 | Económico    | 3      | Blanco |       3 | 444   | Gasolina    | 188914      |
+|      120 |     22 | Sedan        | 5      | Negro  |       5 | 459   | Gasolina    | 181813      |
+|       99 |     35 | Familiar     | 6      | Blanco |       3 | 385   | Gasoil      | 66645       |
+|      110 |     35 | Económico    | 4      | Blanco |       5 | 306   | Eléctrico   | 20883       |
+|       22 |     75 | Todo Terreno | 3      | Gris   |       4 | 786   | Gasoil      | 11763       |
+|        2 |     80 | Sedan        | 7      | Negro  |       4 | 615   | Eléctrico   | 13166       |
+|        7 |     80 | Deportivo    | 3      | Negro  |       5 | 781   | Híbrido     | 9865        |
+|       10 |     80 | Económico    | 4      | Rojo   |       4 | 199   | Híbrido     | 255810      |
+|       95 |     80 | Deportivo    | 5      | Blanco |       5 | 590   | Gasolina    | 282866      |
++----------+--------+--------------+--------+--------+---------+-------+-------------+-------------+
+10 rows in set (0.00 sec)
+
+*********************************************************************************************************************
+
+Saber los clientes que residen en algun municipio de la provincia "Ávila":
+
+
+mysql> select c.dni_clie, c.nombre, c.apellido1, c.apellido2, c.telefono, c.email, m.nombre, p.nombre from clientes c inner join municipios m on c.municipio=m.id_mun  inner join provincias p using(id_prov) where p.nombre in (select nombre from provincias where nombre="Ávila");
+
++-----------+---------+-----------+-----------+-----------+----------------------+--------------------------+--------+
+| dni_clie  | nombre  | apellido1 | apellido2 | telefono  | email                | nombre                   | nombre |
++-----------+---------+-----------+-----------+-----------+----------------------+--------------------------+--------+
+| 88152308G | Debra   | Thomas    | Snyder    | 616755366 | d.thomas@gmail.com   | Hoyo de Pinares          | Ávila  |
+| 34931081X | Charles | Schultz   | Heath     | 661887047 | c.schultz@gmail.com  | Navalosa                 | Ávila  |
+| 94552181H | Ursa    | Callahan  | Dawson    | 654570140 | u.callahan@yahoo.com | San Esteban de los Patos | Ávila  |
+| 85514932T | Lester  | Porter    | Yates     | 632072501 | l.porter@yahoo.com   | San García de Ingelmos   | Ávila  |
++-----------+---------+-----------+-----------+-----------+----------------------+--------------------------+--------+
+4 rows in set (0.00 sec)
+
+
+*********************************************************************************************************************
+
+Saber los nombres de los modelos que tengan el tipo "Económico" junto a su color i el tipo de combustible que utilizan:
+
+
+mysql> select m.nombre, c.id_mod, c.tipo, c.color, c.combustible from modelos m inner join caracteristicas c on m.id_mod=c.id_mod  where c.tipo="Económico";
+
++---------+--------+------------+--------+-------------+
+| nombre  | id_mod | tipo       | color  | combustible |
++---------+--------+------------+--------+-------------+
+| Corolla |     55 | Económico  | Rojo   | Gasolina    |
+| Tipo    |     53 | Económico  | Negro  | Gasolina    |
+| Duster  |     44 | Económico  | Negro  | Gasoil      |
+| Ibiza   |     80 | Económico  | Rojo   | Híbrido     |
+| C1      |     46 | Económico  | Gris   | Eléctrico   |
+| Tipo    |     53 | Económico  | Negro  | Eléctrico   |
+| Prius   |     40 | Económico  | Rojo   | Gasolina    |
+| Rio     |     47 | Económico  | Negro  | Gasoil      |
+| Clase C |     45 | Económico  | Gris   | Híbrido     |
+| Golf    |     41 | Económico  | Negro  | Gasolina    |
+| Clase C |     45 | Económico  | Gris   | Eléctrico   |
+| Corolla |     14 | Económico  | Gris   | Híbrido     |
+| Clase C |     45 | Económico  | Negro  | Gasoil      |
+| Tipo    |      4 | Económico  | Negro  | Eléctrico   |
+| Golf    |     41 | Económico  | Gris   | Híbrido     |
+| Clase C |     45 | Económico  | Negro  | Gasolina    |
+| 500     |     42 | Económico  | Rojo   | Gasoil      |
+| Prius   |     40 | Económico  | Gris   | Eléctrico   |
+| Mondeo  |     57 | Económico  | Gris   | Eléctrico   |
+| Passat  |     52 | Económico  | Rojo   | Híbrido     |
+| Civic   |     37 | Económico  | Blanco | Híbrido     |
+| Civic   |     11 | Económico  | Gris   | Gasoil      |
+| Corolla |     14 | Económico  | Blanco | Gasolina    |
+| Yaris   |     58 | Económico  | Rojo   | Híbrido     |
+| Corolla |     55 | Económico  | Gris   | Gasolina    |
+| Mazda3  |     50 | Económico  | Rojo   | Gasolina    |
+| Tipo    |      4 | Económico  | Negro  | Gasoil      |
+| Astra   |     36 | Económico  | Gris   | Gasolina    |
+| 500     |     42 | Económico  | Gris   | Híbrido     |
+| Corolla |     55 | Económico  | Blanco | Gasolina    |
+| Qashqai |     43 | Económico  | Blanco | Híbrido     |
+| Clase C |     45 | Económico  | Blanco | Gasoil      |
+| Mondeo  |     57 | Económico  | Negro  | Híbrido     |
+| Yaris   |      2 | Económico  | Blanco | Gasolina    |
+| Ceed    |     39 | Económico  | Gris   | Híbrido     |
+| Astra   |     36 | Económico  | Gris   | Gasoil      |
+| Ceed    |     39 | Económico  | Negro  | Híbrido     |
+| CX-3    |      6 | Económico  | Gris   | Gasoil      |
+| Ceed    |     39 | Económico  | Negro  | Gasoil      |
+| Ibiza   |     35 | Económico  | Blanco | Eléctrico   |
+| Ibiza   |     22 | Económico  | Blanco | Gasolina    |
+| A3      |      5 | Económico  | Gris   | Eléctrico   |
+| Yaris   |     58 | Económico  | Rojo   | Gasolina    |
+| Sandero |     59 | Económico  | Blanco | Eléctrico   |
++---------+--------+------------+--------+-------------+
+44 rows in set (0.00 sec)
+
+*********************************************************************************************************************
+
+Los datos de las ventas que realizaron los/as encargados/as junto con sus nombres y el primer apellido.
+
+mysql> select e.dni_emp, e.nombre, e.apellido1, v.matricula, v.dni_clie, v.f_venta, v.p_venta from empleados e, ventas v where e.dni_emp=v.dni_emp and e.cargo like "Encarg%";
+
++-----------+---------+-----------+-----------+-----------+------------+----------+
+| dni_emp   | nombre  | apellido1 | matricula | dni_clie  | f_venta    | p_venta  |
++-----------+---------+-----------+-----------+-----------+------------+----------+
+| 21307080X | Donovan | Nguyen    | 1407JFR   | 11239566G | 2020-04-20 |  2506.35 |
+| 21307080X | Donovan | Nguyen    | 1937EMR   | 98453753F | 2020-05-04 | 37982.70 |
+| 21307080X | Donovan | Nguyen    | 2486JJZ   | 62006528C | 2020-10-15 | 10428.60 |
+| 21307080X | Donovan | Nguyen    | 3481DDY   | 87776856X | 2020-10-09 | 38725.05 |
+| 21307080X | Donovan | Nguyen    | 5950HNU   | 69019369H | 2020-04-24 |  3781.05 |
+| 21307080X | Donovan | Nguyen    | 7375FCS   | 88436886D | 2020-08-24 |  4039.35 |
+| 21307080X | Donovan | Nguyen    | 8973BHW   | 84143682H | 2020-10-03 | 18367.65 |
+| 21307080X | Donovan | Nguyen    | 9858NFX   | 39743358D | 2020-08-29 | 30180.15 |
+| 70948871F | Sandra  | Ray       | 1011FEU   | 82544992C | 2020-04-28 | 27823.95 |
+| 70948871F | Sandra  | Ray       | 1155NBU   | 79194481F | 2020-04-30 | 33649.35 |
+| 70948871F | Sandra  | Ray       | 1178GGU   | 12463957X | 2020-12-11 | 37929.15 |
+| 70948871F | Sandra  | Ray       | 2143EGU   | 21241074B | 2021-01-14 | 12083.40 |
+| 70948871F | Sandra  | Ray       | 3159LBW   | 85005671D | 2020-06-09 |  3806.25 |
+| 70948871F | Sandra  | Ray       | 3344BCR   | 64955205H | 2020-02-25 |  9779.70 |
+| 70948871F | Sandra  | Ray       | 7295JGS   | 36153112G | 2020-12-27 | 26287.80 |
+| 70948871F | Sandra  | Ray       | 9729JFX   | 76208506T | 2020-06-20 | 30164.40 |
++-----------+---------+-----------+-----------+-----------+------------+----------+
+16 rows in set (0.05 sec)
+
+*********************************************************************************************************************
+
+Datos de los clientes que gastaron más de 35000 € ordenados de forma ascendente segun el gasto hecho.
+
+mysql> select c.*, v.p_venta from ventas v, clientes c where v.dni_clie = c.dni_clie and v.p_venta>35000 order by v.p_venta asc;
+
++-----------+------------+-----------+------------+-----------+-----------+----------------------+----------+
+| dni_clie  | nombre     | apellido1 | apellido2  | telefono  | municipio | email                | p_venta  |
++-----------+------------+-----------+------------+-----------+-----------+----------------------+----------+
+| 47920528B | Scarlett   | Dyer      | Mccray     | 696737906 |      6975 | s.dyer@gmail.com     | 36575.70 |
+| 12560505B | Ulric      | Forbes    | Pacheco    | 616725641 |        70 | u.forbes@yahoo.com   | 36605.10 |
+| 12463957X | Aquila     | Baldwin   | Moran      | 608292526 |      2831 | a.baldwin@yahoo.com  | 37929.15 |
+| 98453753F | Danielle   | Simpson   | Branch     | 649279579 |      6144 | d.simpson@yahoo.com  | 37982.70 |
+| 78131788G | Cairo      | Crawford  | Strickland | 687066526 |      6543 | c.crawford@yahoo.com | 38286.15 |
+| 87776856X | Bevis      | Hendrix   | Lamb       | 616560509 |       831 | b.hendrix@gmail.com  | 38725.05 |
+| 49845159L | Emery      | Cohen     | Weaver     | 686978138 |      2091 | e.cohen@hotmail.com  | 38809.05 |
+| 86298193D | Bruno      | Acosta    | Sherman    | 684089370 |      4692 | b.acosta@gmail.com   | 39578.70 |
+| 48843326L | Fitzgerald | Mcgowan   | Marks      | 648257848 |      5915 | f.mcgowan@yahoo.com  | 39771.90 |
+| 44048661D | Lewis      | Wooten    | Ford       | 630741867 |      1137 | l.wooten@yahoo.com   | 41267.10 |
+| 33612118H | Tad        | Callahan  | Benson     | 679353738 |       867 | t.callahan@yahoo.com | 41863.50 |
++-----------+------------+-----------+------------+-----------+-----------+----------------------+----------+
+11 rows in set (0.05 sec)
+
+
