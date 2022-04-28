@@ -1,6 +1,6 @@
 # Proyecto SQL - Estudio de caso: Concesionario
 
-Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/lbadialabwork)
+Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
 <p align="center"><img src="https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/usedcardealer1_0.jpg" height="400"></p>
 
