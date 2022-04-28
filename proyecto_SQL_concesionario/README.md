@@ -14,7 +14,9 @@ Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/lbadialabwork
 
 ## Finalidad
 
+Uno de nuestros socios capitalistas nos ha pedido una lista completa de los coches que se han vendido durante los últimos meses con sus características.
 
+Por esta razón, además de la lista que contiene los coches vendidos y en stock, se ha aprovechado este requerimiento para actualizar los datos de 
 
 ## Pasos realizados
 
