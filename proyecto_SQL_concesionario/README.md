@@ -22,7 +22,7 @@ Por esta razón, además de la lista que contiene los coches vendidos y en stock
 
 Esta es la información que se ha recopilado para cada entidad ([archivos CSV](https://github.com/lluis90badia/projects/tree/main/proyecto_SQL_concesionario/archivos_csv)):
 
-- Para los coches, se ha dividio entre marcas, modelos y características que agrupan toda la información.
+- Para los [clientes](), se ha dividio entre marcas, modelos y características que agrupan toda la información.
 - 
 
 ## Esquema E/R
