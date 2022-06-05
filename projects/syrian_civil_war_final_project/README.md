@@ -48,7 +48,7 @@ At the first stages of the conflict, much of the IDPs were located in the centra
 
 But as the conflict went by, the IDP's exodus was located increasingly in the NW regions, especially Aleppo and Idleb. However, the Aleppo Governorate suffered important damage when Russia entered in scene in October 2015 to back the government forces as a crucial turning point for the path of confronting the rebel factions (and also the Islamic State of Iraq and the Levant or ISIL in the East).
 
-<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/projects/syria_final_project/images/idp_2014.PNG"  height="450"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/images/idp_2014.PNG"  height="450"></p>
 <p align="center">Number of IDPs per Governorate in 2014 (estimated IDP peak) and IDP timeline (2011-2021)</p>
 
 That is why, the Idleb region has been resisting and continues to remain the main rebel stronghold. Therefore, it has become the main location for the majority of displaced people who still refuse to follow authoritarian rules, fear repression after returning to their home or have lost everything back home.
@@ -64,7 +64,7 @@ Regarding the refugee distribution based on group ages and gender, there is a cl
 
 The first one, the majority of the people were families with small children (0-4 years), and the countries that were heading were from the West. Therefore, it seems that they were looking for stability and a more level of future opportunities.
 
-<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/projects/syria_final_project/images/ref_demographics.PNG"  height="500"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/images/ref_demographics.PNG"  height="500"></p>
 <p align="center">Refugee demographics (2020-2021)</p>
 
 However, after the early stages, the distribution got more uniform between the groups, although the adult one has been the top one. Regarding the countries in which they ended up, there was a clear change of tendency of western countries to closer countries with similar cultural and religious roots.
@@ -84,7 +84,7 @@ First of all, it is important to understand the difference between a refugee and
 
 - On the other hand, the term Asylum-Applicant differs from Asylum-Seeker when the application has been already submitted. Therefore, the UNHCR distinguish the ones who are in process (Seeker) and the ones who have already a response (Applicant).
 
-<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/projects/syria_final_project/images/seekers_applicants.PNG"  height="450"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/images/seekers_applicants.PNG"  height="450"></p>
 <p align="center">Top countries with more Asylum-Seekers/Asylum-Applicants (2011-2021)</p>
 
 According to the UNHCR data, there are clear differences between the countries where the Syrian population wanted to apply (that does not mean they got accepted as a refugee) or were seeking asylum and the ones who ended up in closer countries as refugees.
