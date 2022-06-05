@@ -2,11 +2,11 @@
 
 By [Lluis Badia Planes](https://github.com/lluis90badia/projects), 18/3/2022
 
-<p align="center"><img src="[https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/images/syrian_flag.jpg]"  height="500"></p>
+<p align="center"><img src="[https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syrian_civil_war_final_project/images/syrian_flag.jpg]"  height="500"></p>
 
 ## Contents 
 
-- [Purpose](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#purpose)
+- [Purpose](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/README.md#purpose)
 - [Steps used for the project](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#steps-used-for-the-project)
 - [IDP based on Syrian Governorates](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#idp-based-on-syrian-governorates)
 - [Refugee dispersion demographics based on gender and group ages](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#refugee-dispersion-demographics-based-on-gender-and-group-ages)
