@@ -21,7 +21,7 @@ The purpose of this project is to display and understand three aspects:
 - Which countries were the ones who received more Syrian refugees based on gender and group ages during 2011-2021.
 - Which countries the Syrian population sought asylum or applied for during those years.
 
-For a deeper understanding of the events, please see the attached [report](https://github.com/lluis90badia/projects/blob/main/projects/syria_final_project/syrian_civil_war_report.pdf).
+For a deeper understanding of the events, please see the attached [report](https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/syrian_civil_war_report.pdf).
 
 ## Steps used for the project
 
