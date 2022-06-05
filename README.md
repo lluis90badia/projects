@@ -1,4 +1,5 @@
 # Projects
+
 This repository groups the projects that I have developed or in which I have collaborated.
 
 
@@ -6,3 +7,14 @@ This repository groups the projects that I have developed or in which I have col
 - [Study of the most demanded jobs in the US related to the Data Science](https://github.com/lluis90badia/projects/tree/main/US_data_science_hires_getafix)
 - [Bank Classification Study Case](https://github.com/lluis90badia/projects/tree/main/bank_classification_mid_project)
 - [Proyecto SQL - Estudio de caso: Concesionario](https://github.com/lluis90badia/projects/tree/main/proyecto_SQL_concesionario)
+
+## In addition, here are some Python programs (mostly games) which I developed:
+
+- Treasure Island
+- Guess a number
+- Blackjack
+- Calculator
+- Secret Auction
+- Caesar Cipher
+- Password Generator
+- Lottery
