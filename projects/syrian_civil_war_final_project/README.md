@@ -6,12 +6,12 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects), 18/3/2022
 
 ## Contents 
 
-- [Purpose](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/README.md#purpose)
-- [Steps used for the project](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/README.md#steps-used-for-the-project)
-- [IDP based on Syrian Governorates](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/README.md#idp-based-on-syrian-governorates)
-- [Refugee dispersion demographics based on gender and group ages](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/README.md#refugee-dispersion-demographics-based-on-gender-and-group-ages)
-- [Top Asylum-Seeker/Applicant countries](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/README.md#top-asylum-seekerapplicant-countries)
-- [Conclusions](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/README.md#conclusions)
+- [Purpose](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#purpose)
+- [Steps used for the project](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#steps-used-for-the-project)
+- [IDP based on Syrian Governorates](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#idp-based-on-syrian-governorates)
+- [Refugee dispersion demographics based on gender and group ages](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#refugee-dispersion-demographics-based-on-gender-and-group-ages)
+- [Top Asylum-Seeker/Applicant countries](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#top-asylum-seekerapplicant-countries)
+- [Conclusions](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/README.md#conclusions)
 
 ## Purpose
 
@@ -21,7 +21,7 @@ The purpose of this project is to display and understand three aspects:
 - Which countries were the ones who received more Syrian refugees based on gender and group ages during 2011-2021.
 - Which countries the Syrian population sought asylum or applied for during those years.
 
-For a deeper understanding of the events, please see the attached [report](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/syrian_civil_war_report.pdf).
+For a deeper understanding of the events, please see the attached [report](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/syrian_civil_war_report.pdf).
 
 ## Steps used for the project
 
@@ -31,8 +31,8 @@ First of all, the search for the data has been focused, mostly, on international
 - Relief Web
 - Wikipedia has also been used to get some insights for the Data Explanation and the report.
 
-Most of the files were in CSV format, which was quite handy for further [Data Cleaning](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/Data_Cleaning.ipynb) and Data Extraction made in Pandas (Python), but there were also Excel and PDF files.
-In addition, it was also used SQL (a [database](https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/tableau_data/sql_database.sql) was created along with several tables to load data from CSV files) to extract some queries and then exported them again to CSV format to proceed (along with the Data Extraction made with Python) to do Data Visualisation in [Tableau](https://public.tableau.com/app/profile/lluis6453/viz/Lluis_Badia-Syrian_Civil_War_Data_Visualisation/Asyl-Appdash?publish=yes).
+Most of the files were in CSV format, which was quite handy for further [Data Cleaning](https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/Data_Cleaning.ipynb) and Data Extraction made in Pandas (Python), but there were also Excel and PDF files.
+In addition, it was also used SQL (a [database](https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/tableau_data/sql_database.sql) was created along with several tables to load data from CSV files) to extract some queries and then exported them again to CSV format to proceed (along with the Data Extraction made with Python) to do Data Visualisation in [Tableau](https://public.tableau.com/app/profile/lluis6453/viz/Lluis_Badia-Syrian_Civil_War_Data_Visualisation/Asyl-Appdash?publish=yes).
 
 On the one hand, the intention was to approach visualisations in a more geographical way using maps based on National or International perspectives during the years available.
 On the other hand, bar and pie charts have been used to create 'race bars' or animated charts to have better visualisations and facilitate the analysis.
@@ -48,7 +48,7 @@ At the first stages of the conflict, much of the IDPs were located in the centra
 
 But as the conflict went by, the IDP's exodus was located increasingly in the NW regions, especially Aleppo and Idleb. However, the Aleppo Governorate suffered important damage when Russia entered in scene in October 2015 to back the government forces as a crucial turning point for the path of confronting the rebel factions (and also the Islamic State of Iraq and the Levant or ISIL in the East).
 
-<p align="center"><img src="https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/images/idp_2014.PNG"  height="450"></p>
+<p align="center"><img src="https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/images/idp_2014.PNG"  height="450"></p>
 <p align="center">Number of IDPs per Governorate in 2014 (estimated IDP peak) and IDP timeline (2011-2021)</p>
 
 That is why, the Idleb region has been resisting and continues to remain the main rebel stronghold. Therefore, it has become the main location for the majority of displaced people who still refuse to follow authoritarian rules, fear repression after returning to their home or have lost everything back home.
@@ -64,7 +64,7 @@ Regarding the refugee distribution based on group ages and gender, there is a cl
 
 The first one, the majority of the people were families with small children (0-4 years), and the countries that were heading were from the West. Therefore, it seems that they were looking for stability and a more level of future opportunities.
 
-<p align="center"><img src="https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/images/ref_demographics.PNG"  height="500"></p>
+<p align="center"><img src="https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/images/ref_demographics.PNG"  height="500"></p>
 <p align="center">Refugee demographics (2020-2021)</p>
 
 However, after the early stages, the distribution got more uniform between the groups, although the adult one has been the top one. Regarding the countries in which they ended up, there was a clear change of tendency of western countries to closer countries with similar cultural and religious roots.
@@ -84,7 +84,7 @@ First of all, it is important to understand the difference between a refugee and
 
 - On the other hand, the term Asylum-Applicant differs from Asylum-Seeker when the application has been already submitted. Therefore, the UNHCR distinguish the ones who are in process (Seeker) and the ones who have already a response (Applicant).
 
-<p align="center"><img src="https://github.com/lluis90badia/lbadialabwork/blob/main/syria_final_project/images/seekers_applicants.PNG"  height="450"></p>
+<p align="center"><img src="https://github.com/lluis90badia/lbadialabwork/blob/main/projects/syria_final_project/images/seekers_applicants.PNG"  height="450"></p>
 <p align="center">Top countries with more Asylum-Seekers/Asylum-Applicants (2011-2021)</p>
 
 According to the UNHCR data, there are clear differences between the countries where the Syrian population wanted to apply (that does not mean they got accepted as a refugee) or were seeking asylum and the ones who ended up in closer countries as refugees.
