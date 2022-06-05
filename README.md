@@ -8,7 +8,7 @@ This repository groups the projects that I have developed or in which I have col
 - [Bank Classification Study Case](https://github.com/lluis90badia/projects/tree/main/bank_classification_mid_project)
 - [Proyecto SQL - Estudio de caso: Concesionario](https://github.com/lluis90badia/projects/tree/main/proyecto_SQL_concesionario)
 
-## In addition, here are some Python programs (mostly games) which I developed:
+## In addition, here are some Python programs (mostly games) which I have developed:
 
 - Treasure Island
 - Guess a number
