@@ -10,11 +10,11 @@ This repository groups the projects that I have developed or in which I have col
 
 ## In addition, here are some Python programs (mostly games) which I have developed:
 
-- Treasure Island
-- Guess a number
-- Blackjack
-- Calculator
-- Secret Auction
-- Caesar Cipher
-- Password Generator
-- Lottery
+- [Treasure Island](https://github.com/lluis90badia/projects/blob/main/python_programs/5-treasure_island.py)
+- [Guess a number](https://github.com/lluis90badia/projects/blob/main/python_programs/26-guess.py)
+- [Blackjack](https://github.com/lluis90badia/projects/blob/main/python_programs/24-blackjack.py)
+- [Calculator](https://github.com/lluis90badia/projects/blob/main/python_programs/23-calculator.py)
+- [Secret Auction](https://github.com/lluis90badia/projects/blob/main/python_programs/21-secret_auction.py)
+- [Caesar Cipher](https://github.com/lluis90badia/projects/blob/main/python_programs/18-caesar_cipher.py)
+- [Password Generator](https://github.com/lluis90badia/projects/blob/main/python_programs/15-password_generator.py)
+- [Lottery](https://github.com/lluis90badia/projects/blob/main/python_programs/11-lottery.py)
