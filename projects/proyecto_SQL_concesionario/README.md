@@ -20,7 +20,7 @@ Por esta razón, además de la lista que contiene los coches vendidos y en stock
 
 ## Pasos realizados
 
-Esta es la información que se ha recopilado para cada entidad ([archivos CSV](https://github.com/lluis90badia/projects/blob/main/projects/proyecto_SQL_concesionario/archivos_csv/archivos_csv)):
+Esta es la información que se ha recopilado para cada entidad ([archivos CSV](https://github.com/lluis90badia/projects/tree/main/projects/proyecto_SQL_concesionario/archivos_csv)):
 - Para la generación de los nombres y apellidos, se han obtenido mediante el portal web [Generate Data](https://generatedata.com/).
 - Para los [clientes](https://github.com/lluis90badia/projects/blob/main/projects/proyecto_SQL_concesionario/archivos_csv/clientes.csv), se han utilizado varias funciones en excel para formar aleatoriamente el DNI, el muncipio, el email y el teléfono. Hay una explicación más detallada en el apartado 7 del archivo [PDF](https://github.com/lluis90badia/projects/blob/main/projects/proyecto_SQL_concesionario/Proyecto_SQL_concesionario.pdf).
 - Para los [empleados](https://github.com/lluis90badia/projects/blob/main/projects/proyecto_SQL_concesionario/archivos_csv/empleados.csv), se han usado los mismos métodos para obtener el DNI, el email, teléfono y municipio.
