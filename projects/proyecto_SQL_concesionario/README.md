@@ -32,13 +32,13 @@ Esta es la información que se ha recopilado para cada entidad ([archivos CSV](h
 
 ## Esquema E/R
 
-<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/imagenes_modelos/entidad_relacion.PNG"  height="400"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/projects/proyecto_SQL_concesionario/imagenes_modelos/entidad_relacion.PNG"  height="400"></p>
 
 En la anterior imagen se desarrolan las relaciones entre entidades para poder hacer consultas en las diferentes tablas importadas de los archivos CSV dentro de la base de datos creada a partir del archivo [SQL](https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/concesionario.sql).
 
 ## Modelo Relacional
 
-<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/imagenes_modelos/modelo_relacional.PNG"  height="500"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/projects/proyecto_SQL_concesionario/imagenes_modelos/modelo_relacional.PNG"  height="500"></p>
 
 La imagen anterior desarrollada en MySQL Workbench corresponde a la transformación al modelo relacional a partir del esquema E/R. En los apartados 4 y 5 del archivo [PDF](https://github.com/lluis90badia/projects/blob/main/proyecto_SQL_concesionario/Proyecto_SQL_concesionario.pdf) hay la descripción de las entidades y sus atributos.
 
