@@ -10,6 +10,7 @@ This repository groups the projects that I have developed or in which I have col
 
 ## In addition, here are some Python programs (mostly games) which I have developed:
 
+- [Coffee machine](https://github.com/lluis90badia/projects/blob/main/python_programs/coffee_machine/27-coffee.py)
 - [Hangman](https://github.com/lluis90badia/projects/blob/main/python_programs/16-hangman.py)
 - [Higher-Lower](https://github.com/lluis90badia/projects/tree/main/python_programs/higher_lower)
 - [Treasure Island](https://github.com/lluis90badia/projects/blob/main/python_programs/5-treasure_island.py)
