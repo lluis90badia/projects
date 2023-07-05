@@ -32,7 +32,8 @@ First of all, the search for the data has been focused, mostly, on international
 - Wikipedia has also been used to get some insights for the Data Explanation and the report.
 
 Most of the files were in CSV format, which was quite handy for further [Data Cleaning](https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/Data_Cleaning.ipynb) and Data Extraction made in Pandas (Python), but there were also Excel and PDF files.
-In addition, it was also used SQL (a [database](https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/tableau_data/sql_database.sql) was created along with several tables to load data from CSV files) to extract some queries and then exported them again to CSV format to proceed (along with the Data Extraction made with Python) to do Data Visualisation in [Tableau](https://public.tableau.com/app/profile/lluis6453/viz/Lluis_Badia-Syrian_Civil_War_Data_Visualisation/Asyl-Appdash?publish=yes).
+In addition, it was also used SQL (a [database](https://github.com/lluis90badia/projects/blob/main/projects/syrian_civil_war_final_project/tableau_data/sql_database.sql) was created along with several tables to load data from CSV files) to extract some queries and then exported them again to CSV format to proceed (along with the Data Extraction made with Python) to do Data Visualisation in [Tableau](
+https://public.tableau.com/app/profile/lluis6453/viz/Lluis_Badia-Syrian_Civil_War_Data_Visualisation/Asyl-Appdash?publish=yes) ("Story" tab).
 
 On the one hand, the intention was to approach visualisations in a more geographical way using maps based on National or International perspectives during the years available.
 On the other hand, bar and pie charts have been used to create 'race bars' or animated charts to have better visualisations and facilitate the analysis.
