@@ -72,4 +72,5 @@ The survey indicates a predominant profile: a white, college-educated woman in h
 
 ### Position Level – Reported vs. Actual:<br>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/responded_vs_actual.PNG"  height="450"></p>
+
 Significant discrepancies exist between reported position levels and those inferred from salaries. While 61% of reported positions are mid-level and 28% senior management, the actual distribution (based on European context) would be more balanced with 32% at the intermediate level. The Law and Veterinary sectors exhibit the most notable discrepancies.
