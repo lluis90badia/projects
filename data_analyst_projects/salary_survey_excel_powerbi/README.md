@@ -18,7 +18,7 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
 ## Actions Taken
 
-1. Survey Completion and Data Collection:
+### 1. Survey Completion and Data Collection:
 - Introduced our job position details.
 - Downloaded the dataset in an Excel file for further analysis.
   
