@@ -2,7 +2,7 @@
 
 By [Lluis Badia Planes](https://github.com/lluis90badia/projects), 18/3/2022
 
-<p align="center"><img src="projects/ironhack_projects/syrian_civil_war_final_project_tableau/images/syrian_flag.jpg"  height="500"></p>
+<p align="center"><img src="projects/ironhack_projects/syrian_civil_war_final_project/images/syrian_flag.jpg"  height="500"></p>
 
 ## Contents 
 
