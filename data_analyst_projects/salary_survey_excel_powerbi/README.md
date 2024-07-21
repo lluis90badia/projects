@@ -2,7 +2,7 @@
 
 Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
-<p align="center"><img src="https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/usedcardealer1_0.jpg" height="400"></p>
+<p align="center"><img src="https://site.surveysparrow.com/wp-content/uploads/2021/05/decide-on-the-right-time-to-conduct-a-survey-768x410.png" height="400"></p>
 
 ## Contenido
 
