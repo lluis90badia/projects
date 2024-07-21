@@ -22,7 +22,7 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 - Introduced our job position details.
 - Downloaded the dataset in an Excel file for further analysis.
   
-2. Data Cleaning & Exploratory Data Analysis (EDA) in Excel:
+### 2. Data Cleaning & Exploratory Data Analysis (EDA) in Excel:
 - Header simplification:<br>Clarified headers for better readability and identification.
 - Initial Data Overview:<br>Created a pivot table and charts for an initial context overview.
 - Noise Reduction and Standardisation:<br>Developed formulas (IF, OR, AND, ISNUMBER, SEARCH functions) to group dimensions based on variables such as Industry, Race, Gender, and Position Level (refer to the attached TXT file for detailed formulas).
@@ -31,13 +31,18 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 - Bonus Variable Standardisation:<br>Added a binary column for the “bonus” variable, indicating “YES” if the value is greater than 0, and “NO” if the cell is blank or 0.
 - Data Segregation:<br>Segregated columns into sheets based on Demography, Salary, Location, and Job data to facilitate the creation of a data model in Power BI.
 
-3. Data Preparation & Visualisation in Power BI:
+### 3. Data Preparation & Visualisation in Power BI:
 
 - Data Import and Preparation: Refined the sheets in Power Query by removing unnecessary columns and adjusting data types to enable chart creation. After that, Imported the Excel file containing the segregated sheets to build a data model based on respondent IDs.
 - Measure Creation:<br>
 &emsp;- Developed measures to calculate:<br>
-&emsp;&emsp;1. Percentages of total respondents for dimensions such as Gender and Race (formulas available in the [TXT file]() attached<br>
+&emsp;&emsp;1. Percentages of total respondents for dimensions such as Gender and Race (formulas available in the [TXT file]() attached).<br>
+&emsp;&emsp;2. Average salary.<br>
+&emsp;&emsp;3. A card on the “Demography” tab to display selected industries or “All” if all are selected.<br>
 
+&emsp;- Interactive Features:<br>
+&emsp;&emsp;1. Added a moving filter bar on the “Demography” tab, toggled by a filter icon (using bookmarks) and a hide icon (left-pointing arrow in a circle)..<br>
+&emsp;&emsp;2. Created a “Clear Filters” action on all tabs except “Summary” to reset filters on the page..<br>
 
 
 ## Contenido
