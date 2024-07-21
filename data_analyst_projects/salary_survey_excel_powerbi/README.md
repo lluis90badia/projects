@@ -50,25 +50,26 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
 ## Conclusions
 
-- Summary:<br>
+### Summary:<br>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/summary.PNG"  height="450"></p>
 
 The survey indicates a predominant profile: a white, college-educated woman in her late twenties to early thirties, based in the USA, working in IT or education at a mid-level position, with over a decade of experience, and earning an annual salary of €40-60K.
 
-- Demography:<br>
+### Demography:<br>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/demography1.PNG"  height="450"></p>
 
    - Gender: 76% of respondents are women, yet they have the lowest average earnings, except in India and remote positions.
    - Race: “White” respondents comprise 83% but do not have the highest average salaries due to their majority representation.
    - Education & Age: Higher education levels and older age groups report higher salaries, following logical trends.
 
-- Industry & Position Level:
+### Industry & Position Level:<br>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/position.PNG"  height="450"></p>
+
   - There is generally no correlation between reported position levels and actual salaries, categorised by European salary intervals.
   - Filters reveal most junior respondents, particularly from the USA (85%), should be promoted to mid-level positions due to higher salaries compared to European counterparts.
   - In the “Industry” dimension, most hospitality workers should be at the intermediate level, while IT workers should hold better positions based on European salary context.
   - More respondents reported not receiving bonuses (54%). Bonus-receiving industries include consulting, engineering, finance, insurance, technology, and marketing, known for their results-oriented performance, market competitiveness, and business models based on commissions and incentives.
 
-- Position Level – Reported vs. Actual:<br>
+### Position Level – Reported vs. Actual:<br>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/responded_vs_actual.PNG"  height="450"></p>
 Significant discrepancies exist between reported position levels and those inferred from salaries. While 61% of reported positions are mid-level and 28% senior management, the actual distribution (based on European context) would be more balanced with 32% at the intermediate level. The Law and Veterinary sectors exhibit the most notable discrepancies.
