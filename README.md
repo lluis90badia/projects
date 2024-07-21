@@ -1,12 +1,18 @@
 # Projects
 
-This repository groups the projects that I have developed or on which I have collaborated.
+This repository groups the projects I have developed or on which I have collaborated.
 
+Data Analyst Projects
 
-- [Data Visualisation about the Syrian Civil War (2011-2021)](https://github.com/lluis90badia/projects/tree/main/projects/syrian_civil_war_final_project)
-- [Study of the most demanded jobs in the US related to the Data Science](https://github.com/lluis90badia/projects/tree/main/projects/US_data_science_hires_getafix)
-- [Bank Classification Study Case](https://github.com/lluis90badia/projects/tree/main/projects/bank_classification_mid_project)
-- [Proyecto SQL - Estudio de caso: Concesionario](https://github.com/lluis90badia/projects/tree/main/projects/proyecto_SQL_concesionario)
+- [Salary Survey](data_analyst_projects/salary_survey_excel_powerbi)
+- [Proyecto SQL: Concesionario](data_analyst_projects/proyecto_SQL_concesionario)
+
+Ironhack Projects
+
+- [Data Visualisation about the Syrian Civil War (2011-2021)](ironhack_projects/syrian_civil_war_final_project)
+- [Study of the most demanded jobs in the US related to Data Science](ironhack_projects/US_data_science_hires_getafix)
+- [Bank Classification Study Case](ironhack_projects/bank_classification_mid_project)
+
 
 ## In addition, here are some Python programs (mostly games) which I have developed:
 
