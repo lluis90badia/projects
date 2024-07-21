@@ -1,8 +1,35 @@
 # Proyecto SQL - Estudio de caso: Concesionario
 
-Elaborado por [Lluis Badia Planes](https://github.com/lluis90badia/projects)
+Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
 <p align="center"><img src="https://site.surveysparrow.com/wp-content/uploads/2021/05/decide-on-the-right-time-to-conduct-a-survey-768x410.png" height="400"></p>
+
+## Content
+
+- [Objectives]()
+- [Actions Taken]()
+- [Conclusions]()
+
+## Objectives
+
+- Understand, clean and process the selected database using Microsoft Excel.
+- Import the processed file into Power BI to amend the sheets in Power Query, and to visualise the data through charts.
+- Analyse whether the survey data realistically reflects the current European labour market context.
+
+## Actions Taken
+
+1. Survey Completion and Data Collection:
+- Introduced our job position details.
+- Downloaded the dataset in an Excel file for further analysis.
+  
+2. Data Cleaning & Exploratory Data Analysis (EDA) in Excel:
+- Header simplification:
+  Clarified headers for better readability and identification.
+- Initial Data Overview:
+  
+3. Data Preparation & Visualisation in Power BI:
+  
+
 
 ## Contenido
 
