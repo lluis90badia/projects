@@ -42,7 +42,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
     - A card on the “Demography” tab to display selected industries or “All” if all are selected.<br>
   - Interactive Features:<br>
     - Added a moving filter bar on the “Demography” tab, toggled by a filter icon (using bookmarks) and a hide icon (left-pointing arrow in a circle).<br>
-    <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/demography2.PNG"  height="450"></p>
+    <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/demography2.PNG"  height="450"></p><br>
     - Created a “Clear Filters” action on all tabs except “Summary” to reset filters on the page.<br>
   - Chart Creation:
     - Developed various charts to analyse respondent data. The conclusions are presented in the next section.
