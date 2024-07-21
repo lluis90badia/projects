@@ -19,13 +19,12 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 ## Actions Taken
 
 1. Survey Completion and Data Collection:
-  - Introduced our job position details.
-  - Downloaded the dataset in an Excel file for further analysis.
+- Introduced our job position details.
+- Downloaded the dataset in an Excel file for further analysis.
   
 2. Data Cleaning & Exploratory Data Analysis (EDA) in Excel:
-  - Header simplification:
-    Clarified headers for better readability and identification.
-  - Initial Data Overview:
+- Header simplification: Clarified headers for better readability and identification.
+- Initial Data Overview:
   
 3. Data Preparation & Visualisation in Power BI:
   
