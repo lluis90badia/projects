@@ -33,7 +33,7 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
 ### 3. Data Preparation & Visualisation in Power BI:
 
-- Data Import and Preparation: Refined the sheets in Power Query by removing unnecessary columns and adjusting data types to enable chart creation. After that, Imported the Excel file containing the segregated sheets to build a data model based on respondent IDs.
+- Data Import and Preparation:<br>Refined the sheets in Power Query by removing unnecessary columns and adjusting data types to enable chart creation. After that, Imported the Excel file containing the segregated sheets to build a data model based on respondent IDs.
 - Measure Creation:<br>
 &emsp;- Developed measures to calculate:<br>
 &emsp;&emsp;1. Percentages of total respondents for dimensions such as Gender and Race (formulas available in the [TXT file]() attached).<br>
