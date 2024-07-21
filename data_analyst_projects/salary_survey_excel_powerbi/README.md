@@ -24,12 +24,12 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
   
 2. Data Cleaning & Exploratory Data Analysis (EDA) in Excel:
 - Header simplification:<br>Clarified headers for better readability and identification.
-- Initial Data Overview: Created a pivot table and charts for an initial context overview.
-- Noise Reduction and Standardisation: Developed formulas (IF, OR, AND, ISNUMBER, SEARCH functions) to group dimensions based on variables such as Industry, Race, Gender, and Position Level (refer to the attached TXT file for detailed formulas).
-- Salary Data Standardisation: Converted the “Annual Salary” column from general to Currency (€) format, applying specific conversion rates for other currencies. In addition, the “Other” currency category and excluded rows without specified salaries.
-- Salary Interval Analysis: Utilised FREQUENCY and PERCENTILE functions to analyse salary data with the knowledge gained by searching for information about average salary data and position levels across Europe.
-- Bonus Variable Standardisation: Added a binary column for the “bonus” variable, indicating “YES” if the value is greater than 0, and “NO” if the cell is blank or 0.
-- Data Segregation: Segregated columns into sheets based on Demography, Salary, Location, and Job data to facilitate the creation of a data model in Power BI.
+- Initial Data Overview:<br>Created a pivot table and charts for an initial context overview.
+- Noise Reduction and Standardisation:<br>Developed formulas (IF, OR, AND, ISNUMBER, SEARCH functions) to group dimensions based on variables such as Industry, Race, Gender, and Position Level (refer to the attached TXT file for detailed formulas).
+- Salary Data Standardisation:<br>Converted the “Annual Salary” column from general to Currency (€) format, applying specific conversion rates for other currencies. In addition, the “Other” currency category excluded rows without specified salaries.
+- Salary Interval Analysis:<br>Utilised FREQUENCY and PERCENTILE functions to analyse salary data with the knowledge gained by searching for information about average salary data and position levels across Europe.
+- Bonus Variable Standardisation:<br>Added a binary column for the “bonus” variable, indicating “YES” if the value is greater than 0, and “NO” if the cell is blank or 0.
+- Data Segregation:<br>Segregated columns into sheets based on Demography, Salary, Location, and Job data to facilitate the creation of a data model in Power BI.
 
 3. Data Preparation & Visualisation in Power BI:
 
