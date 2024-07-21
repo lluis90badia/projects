@@ -1,0 +1,488 @@
+
+-------------------------------------------------------------------
+*******************************************************************
+
+			FORMULAS DATA PROJECT "SALARY SURVEY"
+
+*******************************************************************
+-------------------------------------------------------------------
+
+1) POSITION LEVEL (based on the column "JOB TITLE")
+	
+	=SI(
+		O(
+			ESNUMERO(HALLAR("educa";C2));
+			ESNUMERO(HALLAR("academ";C2));
+			ESNUMERO(HALLAR("stude";C2));
+			ESNUMERO(HALLAR("resear";C2))
+		);
+		"Education";
+
+		SI(
+		O(
+			ESNUMERO(HALLAR("comput";C2));
+			ESNUMERO(HALLAR("academ";C2))
+		);
+		"IT";
+
+		SI(
+			ESNUMERO(HALLAR("nonprofit";C2));
+		"Nonprofits";
+
+		SI(
+		O(
+			ESNUMERO(HALLAR("pet";C2));
+			ESNUMERO(HALLAR("vet";C2));
+			ESNUMERO(HALLAR("animal";C2))
+		);
+		"Veterinary";
+
+		SI(
+		O(
+			ESNUMERO(HALLAR("health";C2));
+			ESNUMERO(HALLAR("care";C2))
+		);
+		"Healthcare";
+
+		SI(
+			ESNUMERO(HALLAR("govern";C2));
+		"Public Admin.";
+
+		SI(
+		O(
+			ESNUMERO(HALLAR("bank";C2));
+			ESNUMERO(HALLAR("financ";C2));
+			ESNUMERO(HALLAR("account";C2))
+		);
+		"Finance";
+
+		SI(
+			ESNUMERO(HALLAR("engine";C2));
+		"Engineering";
+
+		SI(
+			ESNUMERO(HALLAR("marketin";C2));
+		"Marketing";
+
+		SI(
+			ESNUMERO(HALLAR("law";C2));
+		"Law";
+
+		SI(
+			ESNUMERO(HALLAR("consultin";C2));
+		"Consulting";
+
+		SI(
+			ESNUMERO(HALLAR("digital";C2));
+		"Media / Digital";
+
+		SI(
+			ESNUMERO(HALLAR("insurance";C2));
+		"Insurance";
+
+		SI(
+			ESNUMERO(HALLAR("recru";C2));
+		"HR";
+
+		SI(
+			ESNUMERO(HALLAR("pharma";C2));
+		"Pharmaceutical";
+
+		SI(
+		O(
+			ESNUMERO(HALLAR("hospitali";C2));
+			ESNUMERO(HALLAR("tourism";C2));
+			ESNUMERO(HALLAR("restaurant";C2));
+			ESNUMERO(HALLAR("bar";C2))
+		);
+		"Hospitality";
+
+		SI(
+			ESNUMERO(HALLAR("entertai";C2));
+		"Entertainment";
+
+		SI(
+			ESNUMERO(HALLAR("retai";C2));
+		"Retail";
+
+		SI(
+			ESNUMERO(HALLAR("technolo";C2));
+		"Technology";
+
+		SI(
+			ESNUMERO(HALLAR("science";C2));
+		"Science";
+
+		"Other")))))))))))))))))))
+	)
+
+=================================================================
+
+2) JOB LEVEL
+
+	=SI(
+		O(
+			ESNUMERO(HALLAR("supervisor";D2));
+			ESNUMERO(HALLAR("project manager";D2));
+			ESNUMERO(HALLAR("team lead";D2))
+		);
+		"Middle Management";
+
+		SI(
+			Y(
+				ESNUMERO(HALLAR("account";D2));
+				O(
+					NO(ESNUMERO(HALLAR("CCO";D2)));
+					NO(ESNUMERO(HALLAR("manager";D2))
+				)
+			)
+		);
+		"Intermediate";
+
+		SI(
+			O(
+				ESNUMERO(HALLAR("manager";D2));
+				ESNUMERO(HALLAR("director";D2));
+				ESNUMERO(HALLAR("CEO";D2));
+				ESNUMERO(HALLAR("president";D2));
+				ESNUMERO(HALLAR("CFO";D2));
+				ESNUMERO(HALLAR("CCO";D2));
+				ESNUMERO(HALLAR("CMO";D2))
+		);
+		"Senior Management";
+
+		SI(
+			ESNUMERO(HALLAR("senior";D2));
+		"Senior";
+
+		SI(
+			ESNUMERO(HALLAR("junior";D2));
+		"Junior";
+		"Intermediate"))))
+	)
+
+=====================================================================
+
+3) CONVERSION RATES TO STANDARISE THE MAIN CURRENCIES TO EURO
+
+	=SI(
+		H2="USD";F2*0,92;
+		SI(H2="CAD";F2*0,68;
+		SI(H2="GBP";F2*1,18;
+		SI(H2="AUD/NZD";F2*0,62;
+		SI(H2="SEK";F2*0,088;
+		SI(H2="CHF";F2*1,03;
+		SI(H2="JPY";F2*0,0057;
+		SI(H2="ZAR";F2*0,051;
+		SI(H2="HKD";F2*0,12;
+		F2))))))))
+	)
+
+======================================================================
+
+4) COUNTRY
+
+	=SI(
+		ESNUMERO(HALLAR("austra";L2));
+		"Australia";
+
+		SI(
+			ESNUMERO(HALLAR("/C";L2));
+		"United States of America";
+
+		SI(
+			O(
+				ESNUMERO(HALLAR("CANa";L2));
+				ESNUMERO(HALLAR("CSN";L2)));
+		"Canada";
+
+		SI(
+			O(
+				ESNUMERO(HALLAR("stria";L2));
+				ESNUMERO(HALLAR("ssia";L2));
+				ESNUMERO(HALLAR("cypr";L2));
+				ESNUMERO(HALLAR("bon";L2));
+				ESNUMERO(HALLAR("worldwide";L2));
+				ESNUMERO(HALLAR("kraine";L2));
+				ESNUMERO(HALLAR("AKI";L2));
+				ESNUMERO(HALLAR("roman";L2)));
+		"Other";
+
+		SI(
+			ESNUMERO(HALLAR("japa";L2));
+		"Japan";
+
+		SI(
+			O(
+				ESNUMERO(HALLAR("KINGDO";L2));
+				ESNUMERO(HALLAR("UK";L2));
+				ESNUMERO(HALLAR("U.K";L2));
+				ESNUMERO(HALLAR("DOM";L2));
+				ESNUMERO(HALLAR("ENGL";L2));
+				ESNUMERO(HALLAR("BRI";L2));
+				ESNUMERO(HALLAR("SCOT";L2));
+				ESNUMERO(HALLAR("WALES";L2));
+				ESNUMERO(HALLAR("LE OF";L2));
+				ESNUMERO(HALLAR("HANNE";L2));
+				ESNUMERO(HALLAR("NORTHERN I";L2)));
+		"United Kingdom";
+
+		SI(
+			O(
+				ESNUMERO(HALLAR("stat";L2));
+				ESNUMERO(HALLAR("ED S";L2));
+				ESNUMERO(HALLAR("RGI";L2));
+				ESNUMERO(HALLAR("ALIF";L2));
+				ESNUMERO(HALLAR("USA";L2));
+				ESNUMERO(HALLAR("U.S";L2));
+				ESNUMERO(HALLAR("RGI";L2));
+				ESNUMERO(HALLAR("us";L2));
+				ESNUMERO(HALLAR("U. S";L2));
+				ESNUMERO(HALLAR("AMERICA";L2)));
+		"United States of America";
+
+		SI(
+			ESNUMERO(HALLAR("germa";L2));
+		"Germany";
+
+		SI(
+			O(
+				ESNUMERO(HALLAR("spai";L2));
+				ESNUMERO(HALLAR("TALO";L2)));
+		"Spain";
+
+		SI(
+			ESNUMERO(HALLAR("neth";L2));
+		"The Netherlands";
+
+		SI(
+			ESNUMERO(HALLAR("belg";L2));
+		"Belgium";
+
+
+		SI(
+			ESNUMERO(HALLAR("ireland";L2));
+		"Ireland";
+
+		SI(
+			O(
+				ESNUMERO(HALLAR("new";L2));
+				ESNUMERO(HALLAR("NZ";L2)));
+		"New Zealand";
+
+		SI(
+			ESNUMERO(HALLAR("france";L2));
+		"France";
+
+		SI(
+			ESNUMERO(HALLAR("swe";L2));
+		"Sweden";
+
+		SI(
+			ESNUMERO(HALLAR("swit";L2));
+		"Switzerland";
+
+		SI(
+			ESNUMERO(HALLAR("indi";L2));
+		"India";
+
+		SI(
+			ESNUMERO(HALLAR("remote";L2));
+		"Remote";
+
+		"Other")))))))))))))))))
+	)
+
+=====================================================================
+
+5) REMOTE? (based on the column "CITY")
+
+	=SI(
+		O(
+			M2="Remote";
+			ESNUMERO(HALLAR("remot";P2)));
+		"Yes";
+	"No")
+
+=====================================================================
+
+6) HIGHEST EDUCATIONAL LEVEL
+
+	=SI(
+		ESNUMERO(HALLAR("phd";T2));"PhD";
+		SI(
+			ESNUMERO(HALLAR("master";T2));"Master";
+		SI(
+			ESNUMERO(HALLAR("some";T2));"College (not finished)";
+		SI(
+		O(
+			ESNUMERO(HALLAR("college";T2));
+			ESNUMERO(HALLAR("degree";T2)));
+		"College";
+		SI(
+			ESNUMERO(HALLAR("school";T2));"High School";
+		"N/A"))))
+	)
+
+======================================================================
+
+7) GENDER
+
+	=SI(
+		ESNUMERO(HALLAR("wo";V2));"Woman";
+		SI(
+		ESNUMERO(HALLAR("man";V2));"Man";
+		SI(
+		ESNUMERO(HALLAR("bina";V2));"Non-Binary";
+		SI(
+		ESNUMERO(HALLAR("ther";V2));"Other";
+		"N/A")))
+	)
+
+======================================================================
+
+8) RACE
+
+	=SI(
+		O(
+			LARGO(X2)>54;
+			Y(
+			ESNUMERO(HALLAR("asia";X2));
+			O(
+			ESNUMERO(HALLAR("white";X2));
+			ESNUMERO(HALLAR("black";X2))));
+			Y(
+			ESNUMERO(HALLAR("black";X2));
+			ESNUMERO(HALLAR("white";X2)));
+			Y(
+			ESNUMERO(HALLAR("hispanic";X2));
+			ESNUMERO(HALLAR("white";X2)));
+			Y(
+			ESNUMERO(HALLAR("east";X2));
+			ESNUMERO(HALLAR("white";X2)));
+			Y(
+			ESNUMERO(HALLAR("native";X2));
+			ESNUMERO(HALLAR("white";X2)))
+		);
+		"Multiracial";
+
+		SI(
+			ESNUMERO(HALLAR("asia";X2));"Asian";
+		SI(
+			ESNUMERO(HALLAR("black";X2));"Black";
+		SI(
+			ESNUMERO(HALLAR("hispanic";X2));"Hispanic";
+		SI(
+			ESNUMERO(HALLAR("east";X2));"MENA";
+		SI(
+			ESNUMERO(HALLAR("white";X2));"White";
+		SI(
+			ESNUMERO(HALLAR("native";X2));"American";
+		SI(
+			ESNUMERO(HALLAR("other";X2));"Other";
+		"N/A")))))))
+	)
+
+=====================================================================
+
+9) CONTINENT
+
+	=SI(
+		O(
+			ESNUMERO(HALLAR("america";A2));ESNUMERO(HALLAR("canada";A2)));"North America";
+			SI(O(ESNUMERO(HALLAR("india";A2));ESNUMERO(HALLAR("japan";A2)));"Asia";
+			SI(O(ESNUMERO(HALLAR("austra";A2));ESNUMERO(HALLAR("zea";A2)));"Oceania";
+			SI(A2="Other";"Other";
+			SI(A2="Remote";"Remote";
+		"Europe"))))
+	)
+
+
+----------------------------------------------------------------------
+**********************************************************************
+
+							MEASURES
+	
+**********************************************************************
+----------------------------------------------------------------------
+
+1) Respondents
+
+	Respondents = SUM(Demography[C_Respondents])
+
+=======================================================
+
+2) % Total
+
+	% Total = 
+		[Respondents] / CALCULATE([Respondents], ALL(Demography))
+
+=======================================================
+
+3) % Gender
+
+	% Gender = 
+		VAR CurrentDimension =  [Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Demography[Gender]))
+		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
+		RETURN Ratio	
+
+========================================================
+
+4) % Race
+
+	% Race = 
+		VAR CurrentDimension =  [Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Demography[Race]))
+		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
+		RETURN Ratio
+	
+=========================================================
+
+5) % Industry
+
+	% Industry = 
+		VAR CurrentDimension =  [Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Job[Industry]))
+		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
+		RETURN Ratio
+	
+=========================================================
+
+6) % PosAVGSal
+
+	% PosAVGSal = 
+		VAR CurrentDimension =  [Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Job[Position Level based on Salary (European € AVG)]))
+		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
+		RETURN Ratio
+
+=========================================================
+
+7) % Position
+
+	% Position = 
+		VAR CurrentDimension =  [Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Job[Position Level]))
+		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
+		RETURN Ratio
+
+==========================================================
+
+8) Card Industry
+
+	Card Industry = 
+		VAR CatSelected = VALUES(Job[Industry])
+		VAR AllIndustriesSelected = NOT ISFILTERED(Job[Industry])
+		RETURN
+			IF(
+				AllIndustriesSelected, "Industry selected: All",
+				CONCATENATE("Industry selected: ", CONCATENATEX(CatSelected, Job[Industry], " & "))
+			)
+
+===========================================================
+
+9) AVG Salary
+
+	AVG Salary = AVERAGE(Salary[Annual Salary (€)])
+	
