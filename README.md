@@ -4,7 +4,7 @@ This repository groups the projects I have developed or on which I have collabor
 
 Data Analyst Projects
 
-- [Salary Survey](data_analyst_projects/salary_survey_excel_powerbi)
+- [Salary Survey (Excel-Power BI)](data_analyst_projects/salary_survey_excel_powerbi)
 - [Proyecto SQL: Concesionario](data_analyst_projects/proyecto_SQL_concesionario)
 
 Ironhack Projects
