@@ -55,7 +55,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
 The survey indicates a predominant profile: a white, college-educated woman in her late twenties to early thirties, based in the USA, working in IT or education at a mid-level position, with over a decade of experience, and earning an annual salary of €40-60K.
 
-- Demography:
+- Demography:<br>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/demography1.PNG"  height="450"></p>
 
   - Gender: 76% of respondents are women, yet they have the lowest average earnings, except in India and remote positions.
