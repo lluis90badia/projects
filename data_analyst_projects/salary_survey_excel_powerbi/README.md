@@ -35,6 +35,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
 - Data Import and Preparation:<br>Refined the sheets in Power Query by removing unnecessary columns and adjusting data types to enable chart creation. After that, Imported the Excel file containing the segregated sheets to build a data model based on respondent IDs.
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/data_model.PNG"  height="450"></p>
+
 - Measure Creation:<br>
   - Developed measures to calculate:<br>
     - Percentages of total respondents for dimensions such as Gender and Race (formulas available in the [TXT file](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/salary_survey_formulas.txt) attached).<br>
