@@ -23,7 +23,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 - Downloaded the dataset in an Excel file for further analysis.
   
 ### 2. Data Cleaning & Exploratory Data Analysis (EDA) in [Excel](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/salary_survey.xlsx):
-- #### Header simplification:<br>
+####- Header simplification:<br>
 Clarified headers for better readability and identification.
 - Initial Data Overview:<br>Created a pivot table and charts for an initial context overview.
 - Noise Reduction and Standardisation:<br>Developed formulas (IF, OR, AND, ISNUMBER, SEARCH functions) to group dimensions based on variables such as Industry, Race, Gender, and Position Level (refer to the attached [TXT file](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/salary_survey_formulas.txt) for detailed formulas).
