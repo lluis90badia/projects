@@ -1,6 +1,6 @@
 # Projects
 
-This repository groups the projects that I have developed or in which I have collaborated.
+This repository groups the projects that I have developed or on which I have collaborated.
 
 
 - [Data Visualisation about the Syrian Civil War (2011-2021)](https://github.com/lluis90badia/projects/tree/main/projects/syrian_civil_war_final_project)
