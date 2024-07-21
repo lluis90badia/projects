@@ -23,7 +23,7 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 - Downloaded the dataset in an Excel file for further analysis.
   
 2. Data Cleaning & Exploratory Data Analysis (EDA) in Excel:
-- Header simplification: Clarified headers for better readability and identification.
+- Header simplification:<br>Clarified headers for better readability and identification.
 - Initial Data Overview: Created a pivot table and charts for an initial context overview.
 - Noise Reduction and Standardisation: Developed formulas (IF, OR, AND, ISNUMBER, SEARCH functions) to group dimensions based on variables such as Industry, Race, Gender, and Position Level (refer to the attached TXT file for detailed formulas).
 - Salary Data Standardisation: Converted the “Annual Salary” column from general to Currency (€) format, applying specific conversion rates for other currencies. In addition, the “Other” currency category and excluded rows without specified salaries.
