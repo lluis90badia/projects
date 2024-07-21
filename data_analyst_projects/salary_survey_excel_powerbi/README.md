@@ -1,6 +1,6 @@
 # Salary Survey
 
-Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
+By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
 <p align="center"><img src="https://site.surveysparrow.com/wp-content/uploads/2021/05/decide-on-the-right-time-to-conduct-a-survey-768x410.png" height="400"></p>
 
@@ -30,6 +30,7 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 - Salary Interval Analysis:<br>Utilised FREQUENCY and PERCENTILE functions to analyse salary data with the knowledge gained by searching for information about average salary data and position levels across Europe.
 - Bonus Variable Standardisation:<br>Added a binary column for the “bonus” variable, indicating “YES” if the value is greater than 0, and “NO” if the cell is blank or 0.
 - Data Segregation:<br>Segregated columns into sheets based on Demography, Salary, Location, and Job data to facilitate the creation of a data model in Power BI.
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/data_model.PNG"  height="450"></p>
 
 ### 3. Data Preparation & Visualisation in Power BI:
 
@@ -41,24 +42,32 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
     - A card on the “Demography” tab to display selected industries or “All” if all are selected.<br>
   - Interactive Features:<br>
     - Added a moving filter bar on the “Demography” tab, toggled by a filter icon (using bookmarks) and a hide icon (left-pointing arrow in a circle).<br>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/demography2.PNG"  height="450"></p>
     - Created a “Clear Filters” action on all tabs except “Summary” to reset filters on the page.<br>
   - Chart Creation:
     - Developed various charts to analyse respondent data. The conclusions are presented in the next section.
 
 ## Conclusions
 
-- Summary:<br>The survey indicates a predominant profile: a white, college-educated woman in her late twenties to early thirties, based in the USA, working in IT or education at a mid-level position, with over a decade of experience, and earning an annual salary of €40-60K.
+
+
+- Summary:<br>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/summary.PNG"  height="450"></p>
+The survey indicates a predominant profile: a white, college-educated woman in her late twenties to early thirties, based in the USA, working in IT or education at a mid-level position, with over a decade of experience, and earning an annual salary of €40-60K.
 
 - Demography:
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/demography1.PNG"  height="450"></p>
   - Gender: 76% of respondents are women, yet they have the lowest average earnings, except in India and remote positions.
   - Race: “White” respondents comprise 83% but do not have the highest average salaries due to their majority representation.
   - Education & Age: Higher education levels and older age groups report higher salaries, following logical trends.
 
 - Industry & Position Level:
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/position.PNG"  height="450"></p>
   - There is generally no correlation between reported position levels and actual salaries, categorised by European salary intervals.
   - Filters reveal most junior respondents, particularly from the USA (85%), should be promoted to mid-level positions due to higher salaries compared to European counterparts.
   - In the “Industry” dimension, most hospitality workers should be at the intermediate level, while IT workers should hold better positions based on European salary context.
   - More respondents reported not receiving bonuses (54%). Bonus-receiving industries include consulting, engineering, finance, insurance, technology, and marketing, known for their results-oriented performance, market competitiveness, and business models based on commissions and incentives.
 
 - Position Level – Reported vs. Actual:<br>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/responded_vs_actual.PNG"  height="450"></p>
 Significant discrepancies exist between reported position levels and those inferred from salaries. While 61% of reported positions are mid-level and 28% senior management, the actual distribution (based on European context) would be more balanced with 32% at the intermediate level. The Law and Veterinary sectors exhibit the most notable discrepancies.
