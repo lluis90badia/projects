@@ -56,12 +56,14 @@ The survey indicates a predominant profile: a white, college-educated woman in h
 
 - Demography:
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/demography1.PNG"  height="450"></p>
+
   - Gender: 76% of respondents are women, yet they have the lowest average earnings, except in India and remote positions.
   - Race: “White” respondents comprise 83% but do not have the highest average salaries due to their majority representation.
   - Education & Age: Higher education levels and older age groups report higher salaries, following logical trends.
 
 - Industry & Position Level:
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/position.PNG"  height="450"></p>
+
   - There is generally no correlation between reported position levels and actual salaries, categorised by European salary intervals.
   - Filters reveal most junior respondents, particularly from the USA (85%), should be promoted to mid-level positions due to higher salaries compared to European counterparts.
   - In the “Industry” dimension, most hospitality workers should be at the intermediate level, while IT workers should hold better positions based on European salary context.
