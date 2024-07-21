@@ -51,7 +51,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 ## Conclusions
 
 - Summary:<br>
-<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/summary.PNG"  height="450"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/summary.PNG"  height="450"></p><br>
   - The survey indicates a predominant profile: a white, college-educated woman in her late twenties to early thirties, based in the USA, working in IT or education at a mid-level position, with over a decade of experience, and earning an annual salary of €40-60K.
 
 - Demography:
