@@ -36,10 +36,10 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 - Data Import and Preparation:<br>Refined the sheets in Power Query by removing unnecessary columns and adjusting data types to enable chart creation. After that, Imported the Excel file containing the segregated sheets to build a data model based on respondent IDs.
 - Measure Creation:<br>
   - Developed measures to calculate:<br>
-    1. Percentages of total respondents for dimensions such as Gender and Race (formulas available in the [TXT file]() attached).<br>
-    2. Average salary.<br>
-    3. A card on the “Demography” tab to display selected industries or “All” if all are selected.<br><br>
+    - Percentages of total respondents for dimensions such as Gender and Race (formulas available in the [TXT file]() attached).<br>
+    - Average salary.<br>
+    - A card on the “Demography” tab to display selected industries or “All” if all are selected.<br><br>
   - Interactive Features:<br>
-    1. Added a moving filter bar on the “Demography” tab, toggled by a filter icon (using bookmarks) and a hide icon (left-pointing arrow in a circle).<br>
-    2. Created a “Clear Filters” action on all tabs except “Summary” to reset filters on the page.<br>
+    - Added a moving filter bar on the “Demography” tab, toggled by a filter icon (using bookmarks) and a hide icon (left-pointing arrow in a circle).<br>
+    - Created a “Clear Filters” action on all tabs except “Summary” to reset filters on the page.<br>
 
