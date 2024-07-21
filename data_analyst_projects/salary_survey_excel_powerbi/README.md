@@ -1,4 +1,4 @@
-# Proyecto SQL - Estudio de caso: Concesionario
+# Salary Survey
 
 Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 
@@ -24,10 +24,20 @@ Author: [Lluis Badia Planes](https://github.com/lluis90badia/projects)
   
 2. Data Cleaning & Exploratory Data Analysis (EDA) in Excel:
 - Header simplification: Clarified headers for better readability and identification.
-- Initial Data Overview:
-  
+- Initial Data Overview: Created a pivot table and charts for an initial context overview.
+- Noise Reduction and Standardisation: Developed formulas (IF, OR, AND, ISNUMBER, SEARCH functions) to group dimensions based on variables such as Industry, Race, Gender, and Position Level (refer to the attached TXT file for detailed formulas).
+- Salary Data Standardisation: Converted the “Annual Salary” column from general to Currency (€) format, applying specific conversion rates for other currencies. In addition, the “Other” currency category and excluded rows without specified salaries.
+- Salary Interval Analysis: Utilised FREQUENCY and PERCENTILE functions to analyse salary data with the knowledge gained by searching for information about average salary data and position levels across Europe.
+- Bonus Variable Standardisation: Added a binary column for the “bonus” variable, indicating “YES” if the value is greater than 0, and “NO” if the cell is blank or 0.
+- Data Segregation: Segregated columns into sheets based on Demography, Salary, Location, and Job data to facilitate the creation of a data model in Power BI.
+
 3. Data Preparation & Visualisation in Power BI:
-  
+
+- Data Import and Preparation: Refined the sheets in Power Query by removing unnecessary columns and adjusting data types to enable chart creation. After that, Imported the Excel file containing the segregated sheets to build a data model based on respondent IDs.
+- Measure Creation:
+&emsp;Developed measures to calculate:
+
+
 
 
 ## Contenido
