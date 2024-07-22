@@ -13,7 +13,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 ## Objectives
 
 - Understand, clean and process the selected database using Microsoft Excel.
-- Import the processed file into Power BI to amend the sheets in Power Query, and to visualise the data through charts.
+- Import the processed file into Power BI to amend the sheets in Power Query, create mesaures using DAX, and to visualise the data through charts.
 - Analyse whether the survey data realistically reflects the current European labour market context.
 
 ## Actions Taken
