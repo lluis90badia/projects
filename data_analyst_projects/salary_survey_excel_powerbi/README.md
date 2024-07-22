@@ -19,7 +19,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 ## Actions Taken
 
 ### 1. Survey Completion and Data Collection:
-- Introduced our job position details into the [Salary Survey](https://www.askamanager.org/2021/04/how-much-money-do-you-make-4.html) through [Oscar Baruffa website](https://oscarbaruffa.com/messy/).
+- Introduced our job position details into the [Salary Survey](https://www.askamanager.org/2021/04/how-much-money-do-you-make-4.html) via [Oscar Baruffa website](https://oscarbaruffa.com/messy/).
 - Downloaded the dataset in an Excel file for further analysis.
   
 ### 2. Data Cleaning & Exploratory Data Analysis (EDA) in [Excel](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/salary_survey.xlsx):
