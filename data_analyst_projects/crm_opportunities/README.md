@@ -29,7 +29,7 @@ B2B sales pipeline data from a fictitious company that sells computer hardware, 
 
 ### 3. Outlining questions for analysis (SQL [file](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/crm_questions.sql)):
 The following questions have been outlined to highlight key differences in performance between agents, offices, products, and sectors:
-1. Which agents have the best and worst performance in terms of the percentage of won deals achieved?
+#### 1. Which agents have the best and worst performance in terms of the percentage of won deals achieved?
    <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/images/question_1.PNG"  height="100"></p>
    Reed Clapper, with 65% of deals won relative to his total, may have been focusing on pursuing higher-quality opportunities, which means he has been more selective in choosing more successful opportunities compared to his colleagues. On the other hand, Lajuana Vencill (41% of deals won but with 31% more deals managed than Reed) may have been prioritising a strategy more focused on the number of deals to close more, but with a lower conversion rate (CR%).
 
