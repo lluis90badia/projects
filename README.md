@@ -11,8 +11,8 @@ Data Analyst Projects
 Ironhack Projects
 
 - [Data Visualisation about the Syrian Civil War (2011-2021, Tableau)](ironhack_projects/syrian_civil_war_final_project)
-- [Study of the most demanded jobs in the US related to Data Science](ironhack_projects/US_data_science_hires_getafix)
-- [Bank Classification Study Case](ironhack_projects/bank_classification_mid_project)
+- [Study of the most demanded jobs in the US related to Data Science (Python, Tableau)](ironhack_projects/US_data_science_hires_getafix)
+- [Bank Classification Study Case (Python, Tableau)](ironhack_projects/bank_classification_mid_project)
 
 
 ## In addition, here are some Python programs (mostly games) which I have developed:
