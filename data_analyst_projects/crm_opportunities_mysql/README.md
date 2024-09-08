@@ -26,7 +26,7 @@ B2B sales pipeline data from a fictitious company that sells computer hardware, 
 ### 2. CSV files import:
 - Files imported using LOAD DATA LOCAL INFILE syntax.
 
-### 3. Outlining questions for analysis (SQL [file](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/crm_questions.sql)):
+### 3. Outlining questions for analysis (SQL [file](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities_mysql/crm_questions.sql)):
 The following questions have been outlined to highlight key differences in performance between agents, offices, products, and sectors:
 1. Which agents have the best and worst performance in terms of the percentage of won deals achieved?
    <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities_mysql/images/question_1.PNG"  height="100"></p>
