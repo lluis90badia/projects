@@ -27,7 +27,13 @@ B2B sales pipeline data from a fictitious company that sells computer hardware, 
 ### 2. CSV files import:
 - Files imported using LOAD DATA LOCAL INFILE syntax.
 
-### 3. Outlining questions for analysis:
+### 3. Outlining questions for analysis (SQL [file](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/crm_questions.sql)):
 The following questions have been outlined to highlight key differences in performance between agents, offices, products, and sectors:
 1. Which agents have the best and worst performance in terms of the percentage of won deals achieved?
-2. If these agents are from different offices, do those offices follow the same pattern regarding the percentage of won deals?
+   
+3. If these agents are from different offices, do those offices follow the same pattern regarding the percentage of won deals?
+4. Are there significant differences between the products managed by both agents?
+5. Which products have the best performance by sector?
+6. What are the top 5 agents who have won the most opportunities above the overall average won per agent in the shortest average time? Therefore, we can focus on the agents with bigger proportions of won deals.
+7. What are the top 3 sectors with the fewest opportunities won?
+8. Identify how far the two groups are from the average per type of deal adding a rank per group.
