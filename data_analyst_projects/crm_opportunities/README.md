@@ -43,7 +43,7 @@ The following questions have been outlined to highlight key differences in perfo
    There are significant differences between the two agents. Primarily, two products show major variations between them. One of these, the “GTX Pro,” has been the most managed by agent Reed Clapper (27%), whereas in the case of Lajuana Vencill, she hasn’t managed any. The other noticeable product is the “GTX Basic,” which has been the most managed by Lajuana (41%), far more than in Reed’s case (16%). In summary, Reed shows a much more balanced distribution, indicating greater diversification and adaptation to different products to mitigate the risks of focusing on fewer products. On the other hand, Lajuana has adopted a pattern of high dependency on a few products, which could lead to market vulnerability if those products do not perform well.
 
 4. Which products have the best performance by sector?
-   <p align="center"><img src=""  height="200"></p>
+   <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/images/question_4.PNG"  height="200"></p>
    It can be observed that the product ‘GTX Basic’ dominates among the products with the best performance by sector, with the Retail sector standing out as having the highest number of deals managed (288) and the highest percentage of won deals (64%) compared to the rest.
    
 5. What are the top 5 agents who have won the most opportunities above the overall average won per agent in the shortest average time? Therefore, we can focus on the agents with bigger proportions of won deals.
