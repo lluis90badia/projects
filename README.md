@@ -5,8 +5,8 @@ This repository groups the projects I have developed or on which I have collabor
 Data Analyst Projects
 
 - [Salary Survey (Excel-Power BI)](data_analyst_projects/salary_survey_excel_powerbi)
-- [CRM Opportunities (from Maven Analytics Playground)](data_analyst_projects/crm_opportunities)
-- [Proyecto SQL: Concesionario](data_analyst_projects/proyecto_SQL_concesionario)
+- [CRM Opportunities - Maven Analytics (MySQL)](data_analyst_projects/crm_opportunities)
+- [Concesionario (MySQL)](data_analyst_projects/proyecto_SQL_concesionario)
 
 Ironhack Projects
 
