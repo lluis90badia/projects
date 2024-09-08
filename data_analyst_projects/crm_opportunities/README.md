@@ -23,3 +23,11 @@ B2B sales pipeline data from a fictitious company that sells computer hardware, 
 ### 1. Database and tables creation:
 - [Database and tables](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/create_crm_db_tables.sql) created in MySQL Workbench. The following image shows the EER Diagram consisting of 4 tables structured as a Star Schema:
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/images/crm_eer_diagram.PNG"  height="450"></p>
+
+### 2. CSV files import:
+- Files imported using LOAD DATA LOCAL INFILE syntax.
+
+### 3. Outlining questions for analysis:
+The following questions have been outlined to highlight key differences in performance between agents, offices, products, and sectors:
+1. Which agents have the best and worst performance in terms of the percentage of won deals achieved?
+2. If these agents are from different offices, do those offices follow the same pattern regarding the percentage of won deals?
