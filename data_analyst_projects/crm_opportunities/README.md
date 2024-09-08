@@ -47,10 +47,10 @@ The following questions have been outlined to highlight key differences in perfo
    It can be observed that the product ‘GTX Basic’ dominates among the products with the best performance by sector, with the Retail sector standing out as having the highest number of deals managed (288) and the highest percentage of won deals (64%) compared to the rest.
    
 5. What are the top 5 agents who have won the most opportunities above the overall average won per agent in the shortest average time? Therefore, we can focus on the agents with bigger proportions of won deals.
-   <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/images/question_5.PNG"  height="250"></p>
+   <p align="center"><img src=""  height="250"></p>
    Based on the fact that the average number of deals managed per agent is 141, it can be identified that not only has Zane Levy been the fastest in closing a winning deal on average (47 days); however, the fact that she has only obtained 3.8% of the total won deals indicates that, although she closes some deals quickly, her capacity to generate a significant volume of winning closures has been limited, especially when compared, for example, with Darcel Schlecht and his 8.2% in an average of 49 days.
    
 6. What are the top 3 sectors with fewer opportunities won? Compare with the top 3 sectors with more opportunities won how far those sectors are from the average per type of deal and adding a rank:
-   <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/crm_opportunities/images/question_6.PNG"  height="150"></p>
+   <p align="center"><img src=""  height="150"></p>
    The top 3 with a fewer number of opportunities won are Employment, Services and Entertainment. Comparing them with those that have generated the most winning deals (Retail, Technology, and Medical), all types of agreements are below the average, unlike those that have generated the most (which are above the average). In general, the group with the highest number of won deals is farther from the average than the other group, especially in prospecting deals (121% vs between -50% and -70%). Additionally, the Retail sector has achieved significantly higher performance than the other two in the group, which is not the case in the other group (where percentages are more uniform between them).
 
