@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CRM Sales Opportunities (Source: [Maven Analytics](https://app.mavenanalytics.io/))
 
 By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
