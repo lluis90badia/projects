@@ -13,7 +13,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 ## Objectives
 
 - Understand, clean and process the selected database using Microsoft Excel.
-- Import the processed file into Power BI to amend the sheets in Power Query, create mesaures using DAX, and to visualise the data through charts.
+- Import the processed file into Power BI to amend the sheets in Power Query, create measures using DAX, and visualise the data through charts.
 - Analyse whether the survey data realistically reflects the current European labour market context.
 
 ## Actions Taken
@@ -42,7 +42,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
     - Average salary.<br>
     - A card on the “Demography” tab to display selected industries or “All” if all are selected.<br>
   - Interactive Features:<br>
-    - Added a moving filter bar on the “Demography” tab, toggled by a filter icon (using bookmarks) and a hide icon (left-pointing arrow in a circle).<br>
+    - Added a moving filter bar on the “Demography” tab, toggled by a filter icon (using bookmarks) and a "hide" icon (left-pointing arrow in a circle).<br>
     <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/demography2.PNG"  height="450"></p>
     
     - Created a “Clear Filters” action on all tabs except “Summary” to reset filters on the page.<br>
@@ -68,10 +68,10 @@ The survey indicates a predominant profile: a white, college-educated woman in h
 
   - There is generally no correlation between reported position levels and actual salaries, categorised by European salary intervals.
   - Filters reveal most junior respondents, particularly from the USA (85%), should be promoted to mid-level positions due to higher salaries compared to European counterparts.
-  - In the “Industry” dimension, most hospitality workers should be at the intermediate level, while IT workers should hold better positions based on European salary context.
+  - In the “Industry” dimension, most hospitality workers should be at the intermediate level, while IT workers should hold better positions based on the European salary context.
   - More respondents reported not receiving bonuses (54%). Bonus-receiving industries include consulting, engineering, finance, insurance, technology, and marketing, known for their results-oriented performance, market competitiveness, and business models based on commissions and incentives.
 
 ### Position Level – Reported vs. Actual:<br>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/salary_survey_excel_powerbi/images/responded_vs_actual.PNG"  height="450"></p>
 
-Significant discrepancies exist between reported position levels and those inferred from salaries. While 61% of reported positions are mid-level and 28% senior management, the actual distribution (based on European context) would be more balanced with 32% at the intermediate level. Concretely, Law and Veterinary sectors exhibit the most notable discrepancies.
+Significant discrepancies exist between reported position levels and those inferred from salaries. While 61% of reported positions are mid-level and 28% senior management, the actual distribution (based on European context) would be more balanced with 32% at the intermediate level. Concretely, the Law and Veterinary sectors exhibit the most notable discrepancies.
