@@ -116,7 +116,7 @@
 		"Other")))))))))))))))))))
 	)
 
-=================================================================
+==================================================================
 
 2) JOB LEVEL
 
@@ -408,22 +408,21 @@
 
 1) Respondents
 
-	Respondents = SUM(Demography[C_Respondents])
+	Respondents = COUNTROWS('Fact')
 
 =======================================================
 
 2) % Total
 
-	% Total = 
-		[Respondents] / CALCULATE([Respondents], ALL(Demography))
+	% Total = T_Measures[Respondents] / CALCULATE(T_Measures[Respondents], ALL('Fact'))
 
 =======================================================
 
 3) % Gender
 
 	% Gender = 
-		VAR CurrentDimension =  [Respondents]
-		VAR AllDimensions = CALCULATE([Respondents], ALL(Demography[Gender]))
+		VAR CurrentDimension = T_Measures[Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Gender[Gender]))
 		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
 		RETURN Ratio	
 
@@ -432,8 +431,8 @@
 4) % Race
 
 	% Race = 
-		VAR CurrentDimension =  [Respondents]
-		VAR AllDimensions = CALCULATE([Respondents], ALL(Demography[Race]))
+		VAR CurrentDimension = T_Measures[Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Race[Race]))
 		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
 		RETURN Ratio
 	
@@ -442,8 +441,8 @@
 5) % Industry
 
 	% Industry = 
-		VAR CurrentDimension =  [Respondents]
-		VAR AllDimensions = CALCULATE([Respondents], ALL(Job[Industry]))
+		VAR CurrentDimension = T_Measures[Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Industry[Industry]))
 		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
 		RETURN Ratio
 	
@@ -452,8 +451,8 @@
 6) % PosAVGSal
 
 	% PosAVGSal = 
-		VAR CurrentDimension =  [Respondents]
-		VAR AllDimensions = CALCULATE([Respondents], ALL(Job[Position Level based on Salary (European € AVG)]))
+		VAR CurrentDimension = [Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(EurPosition[EurPosLevel]))
 		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
 		RETURN Ratio
 
@@ -462,8 +461,8 @@
 7) % Position
 
 	% Position = 
-		VAR CurrentDimension =  [Respondents]
-		VAR AllDimensions = CALCULATE([Respondents], ALL(Job[Position Level]))
+		VAR CurrentDimension = T_Measures[Respondents]
+		VAR AllDimensions = CALCULATE([Respondents], ALL(Position[Position Level]))
 		VAR Ratio = DIVIDE(CurrentDimension, AllDimensions)
 		RETURN Ratio
 
@@ -472,17 +471,17 @@
 8) Card Industry
 
 	Card Industry = 
-		VAR CatSelected = VALUES(Job[Industry])
-		VAR AllIndustriesSelected = NOT ISFILTERED(Job[Industry])
+		VAR CatSelected = VALUES(Industry[Industry])
+		VAR Todas = NOT ISFILTERED(Industry[Industry])
 		RETURN
 			IF(
-				AllIndustriesSelected, "Industry selected: All",
-				CONCATENATE("Industry selected: ", CONCATENATEX(CatSelected, Job[Industry], " & "))
+				Todas, "Industry selected: All",
+				CONCATENATE("Industry selected: ", CONCATENATEX(CatSelected, Industry[Industry], " & "))
 			)
 
 ===========================================================
 
 9) AVG Salary
 
-	AVG Salary = AVERAGE(Salary[Annual Salary (€)])
+	AVG Salary = AVERAGE('Fact'[Annual Salary (€)])
 	
