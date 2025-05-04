@@ -1,0 +1,88 @@
+Total Revenue = SUMX(Sales, Sales[Unit Price] * Sales[Quantity])
+
+PM Revenue = CALCULATE([Total Revenue], DATEADD('Calendar'[Fecha], -1, MONTH))
+
+Total Profit = [Total Revenue] - [Total Cost]
+
+PM Profit = CALCULATE([Total Profit], DATEADD('Calendar'[Fecha], -1, MONTH))
+
+Total Cost = SUMX(
+    Sales,
+    Sales[Quantity] * RELATED(Products[Standard Cost])
+)
+
+Total Orders = DISTINCTCOUNT(Sales[SaleID])
+
+PM Orders = CALCULATE([Total Orders], DATEADD('Calendar'[Fecha], -1, MONTH))
+
+PM Cost = CALCULATE([Total Cost], DATEADD('Calendar'[Fecha], -1, MONTH))
+
+PY Revenue = CALCULATE([Total Revenue], DATEADD('Calendar'[Fecha], -1, YEAR))
+
+PY Profit = CALCULATE([Total Profit], DATEADD('Calendar'[Fecha], -1, YEAR))
+
+PY Orders = CALCULATE([Total Orders], DATEADD('Calendar'[Fecha], -1, YEAR))
+
+% MoM Orders = IF(
+    ISBLANK([PM Orders]), BLANK(),
+    DIVIDE([Total Orders] - [PM Orders], [PM Orders], "N/A"
+))
+
+% MoM Revenue = IF(
+    ISBLANK([PM Revenue]), BLANK(),
+    DIVIDE([Total Revenue] - [PM Revenue], [PM Revenue], "N/A"
+))
+
+% MoM Profit = IF(
+    ISBLANK([PM Profit]), BLANK(),
+    DIVIDE([Total Profit] - [PM Profit], [PM Profit], "N/A"
+))
+
+% Profit Margin = DIVIDE([Total Profit], [Total Revenue], "N/A")
+
+% Revenue = 
+    VAR AllRev = CALCULATE([Total Revenue], ALL(Sales))
+    RETURN DIVIDE([Total Revenue], AllRev, "N/A")
+
+% Orders All (Top5) = 
+    DIVIDE([Total Orders (Top5)], CALCULATE([Total Orders], ALL(Sales)), "N/A")
+
+% Orders Selected (Top5) = 
+    DIVIDE([Total Orders (Top5)], CALCULATE([Total Orders], ALLSELECTED(Products[Product])), "N/A")
+
+% Revenue All (Top5) = 
+    DIVIDE([Total Revenue (Top5)], CALCULATE([Total Revenue], ALL(Sales)), "N/A")
+
+% Revenue Selected (Top5) = 
+    DIVIDE([Total Revenue (Top5)], CALCULATE([Total Revenue], ALLSELECTED(Products[Product])), "N/A")
+
+% MoM Revenue (Top5 ASC) = IF(
+    ISBLANK([MoM Revenue (Top5 ASC)]), BLANK(),
+    DIVIDE([Total Revenue] - [PM Revenue], [PM Revenue], "N/A"
+))
+
+MoM Revenue (Top5 ASC) = IF(
+    RANKX(ALL(Products[Product]), [MoM Revenue],,ASC, Skip) <= 5,
+    [MoM Revenue], BLANK()
+)
+
+% MoM Orders (Top5 ASC) = IF(
+    ISBLANK([MoM Orders (Top5 ASC)]), BLANK(),
+    DIVIDE([Total Orders] - [PM Orders], [PM Orders], "N/A"
+))
+
+MoM Orders (Top5 ASC) = IF(
+    RANKX(ALL(Products[Product]), [MoM Orders],,ASC, Skip) <= 5,
+    [MoM Orders], BLANK()
+)
+
+MoM Profit (Top5 ASC) = IF(
+    RANKX(ALL(Products[Product]), [MoM Profit],,ASC, Skip) <= 5,
+    [MoM Profit], BLANK()
+)
+
+% MoM Profit (Top5 ASC) = IF(
+    ISBLANK([MoM Profit (Top5 ASC)]), BLANK(),
+    DIVIDE([Total Profit] - [PM Profit], [PM Profit], "N/A"
+))
+
