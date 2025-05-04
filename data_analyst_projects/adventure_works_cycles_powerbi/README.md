@@ -59,7 +59,7 @@ The analysis highlights key changes between May and June 2018.
 - Revenue: A significant drop was observed across most regions (approx. **-50% MoM**, especially in the South). Although sharp, this decline fits within a broader pattern of seasonal variability during 2018. Mountain Bikes experienced the steepest drop, with losses exceeding **$100K (-72% MoM)**.
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/rev_jun18.png" height="450"></p>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/rev_cat_jun18.png" height="450"></p>
-- Orders: A decline in sales was also evident, though less severe than revenue **(-25% MoM)**. The reduction was not limited to bikes**–apparel sales also fell** notably during that period.
+- Orders: A decline in sales was also evident, though less severe than revenue (-25% MoM). The reduction was not limited to bikes **–apparel sales also fell** notably during that period.
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/ord_jun18.png" height="450"></p>
 - Profit: The sharper fall in revenue compared to sales volume led to a dramatic profit collapse of -570% MoM. In May 2018, bicycles accounted for 81% of total profit, but by June, profits turned negative, with **Mountain Bikes alone dropping between -700% and -900% MoM**.
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/prof_jun18.png" height="450"></p>
