@@ -33,7 +33,7 @@ The project began with an ETL process involving multiple CSV files before loadin
 
 ### 2. Data Modelling
 
-Once the tables were loaded, relationships through key columns were built using 1:N cardinality<br>, resulting in a snowflake schema<br> for better normalisation (“data_model” image).
+Once the tables were loaded, relationships through key columns were built using **1:N cardinality**, resulting in a snowflake schema<br> for better normalisation.
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/data_model.png" height="450"></p>
 
 With the model in place, the use of [DAX](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/measures_dax.txt) was employed for:
@@ -60,7 +60,6 @@ The analysis highlights key changes between May and June 2018.
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/rev_jun18.png" height="450"></p>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/rev_cat_jun18.png" height="450"></p>
 - Orders: A decline in sales was also evident, though less severe than revenue (-25% MoM). The reduction was not limited to bikes–apparel sales also fell notably during that period.
-<br/>
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/ord_jun18.png" height="450"></p>
 - Profit: The sharper fall in revenue compared to sales volume led to a dramatic profit collapse of -570% MoM. In May 2018, bicycles accounted for 81% of total profit, but by June, profits turned negative, with Mountain Bikes alone dropping between -700% and -900% MoM.
 <p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/images/prof_jun18.png" height="450"></p>
