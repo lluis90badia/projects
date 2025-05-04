@@ -43,7 +43,7 @@ With the model in place, the use of [DAX](https://github.com/lluis90badia/projec
 - Ranking and visualising the Top 5 Worst Products using RANKX, integrated into tooltips within the executive time-series visual for deeper insight.
 - Adding bookmarked buttons to reset filters and improve user navigation across dimensions and metrics.
 
-### 3. Visualization & Analysis
+### 3. [Visualization](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/aw_report.pbix) & Analysis
 
 To explore the data in depth and from various angles, the following visual types were implemented:
 - Bar and donut charts: to display revenue and sales by category and geography.
