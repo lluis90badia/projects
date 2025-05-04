@@ -9,7 +9,7 @@ By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
 - [Brief description](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/README.md#brief-description)
 - [Objectives](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/README.md#objectives)
 - [Workflow](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/README.md#workflow)
-- [Visualization & Analysis](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/README.md#visualization-&-analysis)
+- [Visualization & Analysis](https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/adventure_works_cycles_powerbi/README.md#insights--conclusions)
 
 ## Brief description
 
