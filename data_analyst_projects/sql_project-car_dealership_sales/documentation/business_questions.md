@@ -313,7 +313,7 @@ This helps identify top performers and possible concentration risks.
 
 | Dimension         | Fields              |
 | ----------------- | ------------------- |
-| `dim_employee`    | Employee name, role |
+| `dim_employee`    | Employee name       |
 | `dim_dealer`      | Dealer ID           |
 | `dim_sale_status` | Sale status         |
 
@@ -324,7 +324,6 @@ This analysis helps answer:
 * Who are the top-performing salespeople?
 * Is sales performance concentrated in a small number of employees?
 * Are some dealerships too dependent on one employee?
-* Are performance differences linked to employee role, experience, territory or lead allocation?
 
 ### Result (screenshot)
 
