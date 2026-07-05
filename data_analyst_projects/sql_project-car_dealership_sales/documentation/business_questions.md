@@ -116,6 +116,10 @@ A model can perform well in one category but not necessarily in all of them.
 
 This analysis identifies which vehicle models contribute most to total revenue.
 
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_2_1.png" height="450"></p>
+
 ### Insight Summary
 
 The Chevrolet Tahoe stood out as one of the strongest models by completed revenue.
@@ -138,6 +142,10 @@ This analysis identifies which models are strongest in terms of volume.
 
 High sales volume may indicate strong demand, better affordability, stronger availability, or broader customer appeal.
 
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_2_2.png" height="450"></p>
+
 ### Insight Summary
 
 Honda and Ford showed strong sales volume performance.
@@ -159,6 +167,10 @@ This suggests that these brands may play an important role in driving dealership
 This analysis identifies higher-ticket brands and models.
 
 A high average sale price does not always mean a model is the highest contributor to total revenue, but it can indicate stronger premium positioning.
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_2_3.png" height="450"></p>
 
 ### Insight Summary
 
@@ -216,6 +228,10 @@ This analysis helps answer:
 * Do high-volume states also generate high revenue?
 * Are some states stronger because of higher average sale prices?
 
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_3.png" height="450"></p>
+
 ### Insight Summary
 
 The top-performing states were also among the most populated US states, which is consistent with larger market potential.
@@ -257,6 +273,10 @@ This analysis helps distinguish between:
 * Dealerships with high sales volume
 * Dealerships with high average ticket size
 * Dealerships with better conversion from total records to completed sales
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_4.png" height="450"></p>
 
 ### Insight Summary
 
@@ -305,6 +325,10 @@ This analysis helps answer:
 * Is sales performance concentrated in a small number of employees?
 * Are some dealerships too dependent on one employee?
 * Are performance differences linked to employee role, experience, territory or lead allocation?
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_5.png" height="450"></p>
 
 ### Insight Summary
 
@@ -357,6 +381,10 @@ This analysis helps answer:
 * Are some dealerships or states more affected by cancellations?
 * Are some brands more likely to remain pending or in transit?
 * Are some salespeople associated with stronger completion rates?
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_6.png" height="450"></p>
 
 ### Insight Summary
 
@@ -411,6 +439,10 @@ This analysis helps answer:
 * Are there unusual drops in revenue or volume?
 * Are stronger months caused by higher volume or higher average sale prices?
 
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_7.png" height="450"></p>
+
 ### Insight Summary
 
 Spring and fall appeared to be stronger sales periods, while winter showed weaker performance.
@@ -456,6 +488,10 @@ This analysis helps support:
 * Dealership stock allocation
 * Product mix decisions
 * Regional sales strategy
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_8.png" height="450"></p>
 
 ### Insight Summary
 
@@ -511,6 +547,10 @@ This analysis helps answer:
 * How much does vehicle age affect average sale price?
 * Should inventory strategy prioritise affordability, revenue, or a balanced mix?
 
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_9.png" height="450"></p>
+
 ### Insight Summary
 
 Older vehicles represented slightly more completed sales volume, with around 49% of sales, compared with approximately 47% for newer vehicles.
@@ -554,6 +594,10 @@ Detect uneven sales distribution between employees within the same dealership.
 | ---------------------------------- | --------------------------------------------------------------------------- |
 | Employee completed sales           | Completed sales generated by each employee                                  |
 | Employee sales share within dealer | Employee completed sales divided by total completed sales of the dealership |
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_10_1.png" height="450"></p>
 
 ### Insight Summary
 
@@ -600,6 +644,10 @@ Dealerships are flagged when:
 | Completed sales rate is below 50%        |
 | Completed sales market share is below 5% |
 
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_10_2.png" height="450"></p>
+
 ### Insight Summary
 
 Dealerships 3, 11, 13 and 7 had less than 5% of the total completed sales performance.
@@ -631,6 +679,10 @@ Identify states with low completed sales activity.
 | --------------------- | ------------------------------------------------------ |
 | Completed sales       | Number of completed sales by state                     |
 | Completed sales share | State completed sales divided by total completed sales |
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_10_3.png" height="450"></p>
 
 ### Insight Summary
 
@@ -670,6 +722,10 @@ Identify vehicle sale prices that are unusually far from the average price for t
 | `STDDEV()`     | Calculate price variability       |
 | `ABS()`        | Measure distance from the average |
 | `2 * STDDEV()` | Define outlier threshold          |
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_10_4.png" height="450"></p>
 
 ### Insight Summary
 
