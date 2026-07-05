@@ -219,20 +219,6 @@ The purpose of the cleaned dataset and dimensional model is to make these analys
 
 ---
 
-## Notes for MySQL Implementation
-
-Recommended implementation considerations:
-
-* Use `INT` for numeric identifiers such as `dealer_id` and `employee_id`.
-* Use `VARCHAR` for text attributes such as names, roles, emails, brands, and models.
-* Use `DATE` for `hire_date` and `sale_date`.
-* Use `DECIMAL(10,2)` for `vehicle_price_usd` to avoid floating-point precision issues.
-* Use `CHAR(2)` for `customer_state` because US state abbreviations use two characters.
-* Store phone numbers as`VARCHAR`, not numeric values.
-* Store VINs as `VARCHAR(17)` because VINs are alphanumeric identifiers.
-
----
-
 ## Summary
 
 This data dictionary provides the documentation layer for the cleaned car dealership sales dataset. It defines each column, explains its business meaning, identifies nullable fields, and connects the cleaned dataset with the future star schema model used for sales analysis.
