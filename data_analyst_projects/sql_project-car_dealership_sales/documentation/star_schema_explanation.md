@@ -68,7 +68,7 @@ This makes the model more suitable for business analysis because:
 
 The model contains one central fact table and six dimension tables.
 
-<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/star_schema.png"  height="400"></p>
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/star_schema.png"  height="800"></p>
 
 ---
 
