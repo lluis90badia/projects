@@ -47,7 +47,7 @@ Here are the steps that it will be taken:
         ADD COLUMN vehicle_brand_cleaned VARCHAR(50) AFTER vehicle_brand,
         ADD COLUMN vehicle_model_cleaned VARCHAR(70) AFTER vehicle_model,
         ADD COLUMN vehicle_year_cleaned SMALLINT AFTER vehicle_year,
-        ADD COLUMN vehicle_price_usd_cleaned DECIMAL(8, 2) AFTER vehicle_price_usd,
+        ADD COLUMN vehicle_price_usd_cleaned DECIMAL(10, 2) AFTER vehicle_price_usd,
         ADD COLUMN sale_date_cleaned DATE AFTER sale_date,
         ADD COLUMN customer_state_cleaned CHAR(2) AFTER customer_state,
         ADD COLUMN sale_status_cleaned VARCHAR(50) AFTER sale_status,
