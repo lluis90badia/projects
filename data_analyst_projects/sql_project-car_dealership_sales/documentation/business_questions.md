@@ -48,7 +48,7 @@ This distinction is important because revenue should not be considered confirmed
 
 ### Objective
 
-Understand how sales performance evolved over time.
+Understand how sales performance evolved.
 
 This question helps identify whether the dealership network is growing, declining, or showing seasonal patterns.
 
@@ -75,6 +75,10 @@ This analysis helps answer:
 * Are completed sales increasing or decreasing?
 * Are some years or months stronger than others?
 * Is the business growing because of higher volume, higher prices, or both?
+
+### Result (screenshot)
+
+<p align="center"><img src="https://github.com/lluis90badia/projects/blob/main/data_analyst_projects/sql_project-car_dealership_sales/images/business_questions_screenshots/question_1.png" height="450"></p>
 
 ### Insight Summary
 
