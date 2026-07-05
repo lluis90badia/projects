@@ -1,0 +1,101 @@
+dealer_id,employee_id,employee_name,employee_role,hire_date,employee_email,employee_phone,vin,vehicle_brand,vehicle_model,vehicle_year,vehicle_price_usd,sale_date,customer_state,sale_status
+1,1001,"John Miller","Sales Associate",2022-03-14,john.miller@sunsetautos.com,555-213-7788,1HGCM82633A123456,Honda,Civic,2021,21995.00,2025-01-15,CA,Sold
+3,1006,"Jessica Moore","Sales Consultant",2018-09-09,jessica.moore@sunsetautos.com,NULL,HFNDN79BHMBUPS5FX,Toyota,Corolla,2022,25460.00,2022-11-01,NV,Delivered
+5,1009,"Robert Thomas","Sales Associate",2021-02-28,robert.thomas@sunsetautos.com,555-411-8890,NTEEB9B2PCT7K02RV,Chevrolet,Equinox,2018,22373.00,2024-02-12,TX,Pending
+1,1002,"Sarah Johnson","Sales Associate",2021-03-22,sarah.johnson@sunsetautos.com,555-310-8899,1FTFW1E50MFA54321,Ford,F-150,2022,38999.00,2025-02-10,CA,Sold
+6,1012,"Patricia Harris","Sales Manager",2019-08-19,patricia.harris@sunsetautos.com,555-789-4561,1YB8XM8PZTYUUANFS,Hyundai,Elantra,2020,20246.00,2024-10-23,WA,Delivered
+2,1003,"Michael Brown","Sales Associate",2021-07-01,michael.brown@sunsetautos.com,555-444-1212,2T1BURHE5JC765432,Toyota,Corolla,2019,17950.00,2025-02-28,TX,Pending
+1,1001,"John Miller","Sales Associate",2022-03-14,john.miller@sunsetautos.com,555-213-7788,6UWTRHNXHMNP7UVGN,Honda,"Civic LX",2016,11534.00,2023-04-23,AZ,Sold
+8,1015,"Steven Perez","Internet Sales",2022-10-05,stephen.perez@sunsetautos.com,555-812-0000,LDXMBDW1GXK3XT1HD,Toyota,Corolla,2016,13282.00,2025-08-16,CA,"In Transit"
+8,1016,"Jennifer Hall","Internet Sales",NULL,jennifer.hall@sunsetautos.com,555-700-8899,7HE28EDKKWFSH3R15,Hyundai,Kona,2021,23110.00,2023-08-14,CA,"In Transit"
+13,1025,"Edward Carter","Sales Associate",2021-01-04,edward.carter@sunsetautos.com,555-901-2211,ZCR8RET0RCP0176CC,Nissan,"Rogue Sport",2021,27218.00,2023-09-17,AZ,Delivered
+11,1022,"Betty Green","Sales Advisor",2022-04-21,betty.green@sunsetautos.com,555-778-9900,NULL,BMW,328i,2018,19542.00,2022-04-24,CA,Sold
+4,1007,"Chris Taylor","Sales Associate",2023-01-10,chris.taylor@sunsetautos.com,555-870-1234,SJW35F9PK0LS45CA6,Honda,"Civic LX",2014,11875.00,2024-09-06,AL,Delivered
+9,1018,"Karen Young","Sales Consultant",2015-03-22,karen.young@sunsetautos.com,555-222-3344,2ZZ87A9J5LRE9UPKM,Nissan,Leaf,2018,8500.00,2024-10-22,AL,Sold
+7,1013,"Kevin Martin","Sales Consultant",2016-01-11,kevin.martin@sunsetautos.com,555-321-9090,FRBUCM75UM48F7Z3Y,Honda,"Civic LX",2017,10267.00,2022-03-14,FL,Sold
+2,1004,"Emily Davis","General Manager",NULL,emily.davis@sunsetautos.com,555-999-1122,3CZRU6H59KM987654,Honda,CR-V,2018,24500.00,2025-03-05,FL,Delivered
+9,1018,"Karen Young","Sales Consultant",2015-03-22,karen.young@sunsetautos.com,555-222-3344,F2HJU4P9XYT5USXYP,Chrysler,200,2015,8500.00,2024-01-23,GA,Sold
+7,1014,"Barbara Lee","Sales Associate",2024-02-29,barbara.lee@sunsetautos.com,555-901-1002,KDLTM2BVFP577LR3K,Chevrolet,Silverado,2017,31148.00,2025-03-22,NULL,Delivered
+13,1025,"Edward Carter","Sales Associate",2021-01-04,edward.carter@sunsetautos.com,555-901-2211,63DN085DPUJV58HBS,Chevrolet,Equinox,2016,17378.00,2023-01-14,MS,Delivered
+6,1012,"Patricia Harris","Sales Manager",2019-08-19,patricia.harris@sunsetautos.com,555-789-4561,K1N9JEU3Y9UAVW8K5,Ford,Escape,2020,22062.00,2023-07-18,WA,Sold
+3,1005,"David Wilson","Sales Associate",2019-05-18,david.wilson@sunsetautos.com,555-878-2211,1N4AL3AP8JC246810,Nissan,Altima,2020,19800.00,2025-03-18,NY,Sold
+3,1006,"Jessica Moore","Sales Consultant",2018-09-09,jessica.moore@sunsetautos.com,NULL,5YJ3E1EA7JF000111,Tesla,"Model 3",2018,31000.00,2025-04-01,WA,Returned
+15,1029,"Anthony Phillips","Internet Sales",2023-06-01,anthony.phillips@sunsetautos.com,555-789-1111,GM7C9HF7JA430C4R7,Nissan,Altima,2018,19636.00,2023-08-24,PA,Pending
+6,1011,"Daniel White","Sales Associate",2020-04-03,daniel.white@sunsetautos.com,555-600-1234,HA1PX30GK4TT40U2P,Honda,Accord,2016,19598.00,2025-06-12,NV,Delivered
+1,1001,"John Miller","Sales Associate",2022-03-14,john.miller@sunsetautos.com,555-213-7788,B5HZ1Z1MAH60N5ARB,Ford,Escape,2020,21536.00,2025-09-07,IL,Delivered
+9,1018,"Karen Young","Sales Consultant",2015-03-22,karen.young@sunsetautos.com,555-222-3344,2YDL1AFK74FETR0FC,Jeep,Wrangler,2017,32106.00,2025-05-21,TX,Sold
+4,1007,"Chris Taylor","Sales Associate",2023-01-10,chris.taylor@sunsetautos.com,555-870-1234,1C4RJFAG0FC654321,Jeep,"Grand Cherokee",2017,27500.00,2025-04-12,AZ,Sold
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,K8CJ9YG5G6AK3KE7T,Honda,"Civic LX",2016,11465.00,2025-09-28,NY,Cancelled
+11,1021,"Jason Scott","Sales Associate",2023-05-12,jason.scott@sunsetautos.com,555-555-5555,U98LNMEJEJTRUNBT6,Honda,"Civic LX",2018,12255.00,NULL,OR,Sold
+5,1010,"Linda Jackson","Sales Associate",2017-12-15,linda.jackson@sunsetautos.com,555-200-7788,XA2NYFBR4ESNLYWEG,Ford,Explorer,2019,NULL,2025-08-21,OH,Delivered
+4,1008,"Amanda Anderson","Sales Consultant",2022-06-25,amanda.anderson@sunsetautos.com,555-300-4567,1G1BE5SM5J7123456,Chevrolet,Malibu,2018,16500.00,NULL,NV,Cancelled
+5,1009,"Robert Thomas","Sales Associate",2021-02-28,robert.thomas@sunsetautos.com,555-411-8890,1FA6P8TH5J5109876,Ford,Mustang,2018,28999.00,2025-05-07,OR,Pending
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,GG5LWBCXDVZ04KS3M,Nissan,Leaf,2019,13218.00,2022-11-20,TX,Sold
+3,1006,"Jessica Moore","Sales Consultant",2018-09-09,jessica.moore@sunsetautos.com,NULL,W4T6WN17GS1ZVVB2U,Nissan,Leaf,2015,8500.00,2025-10-27,CA,"In Transit"
+10,1019,"Paul King","Sales Associate",2019-11-05,paul.king@sunsetautos.com,555-119-8877,W5C0JFVX3MNJ09ULT,Toyota,Camry,2019,26023.00,2025-12-10,OH,Delivered
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,H60T10GR7BXRE6W3H,Ford,Escape,2022,28410.00,2025-04-16,NV,Sold
+5,1010,"Linda Jackson","Sales Associate",2017-12-15,linda.jackson@sunsetautos.com,555-200-7788,C0P55S0G0ZD2UNH6F,Toyota,Tacoma,2020,31640.00,2024-08-01,NY,"In Transit"
+12,1024,"Donna Nelson","General Manager",2019-02-10,donna.nelson@sunsetautos.com,555-654-2200,JTMHBJAZSXBMTDJ3H,Honda,Accord,2018,25731.00,2024-10-17,TX,Cancelled
+10,1019,"Paul King","Sales Associate",2019-11-05,paul.king@sunsetautos.com,555-119-8877,5EFXKEJUX1V694GHP,Hyundai,Elantra,2022,25279.00,2025-06-27,CA,Delivered
+6,1011,"Daniel White","Sales Associate",2020-04-03,daniel.white@sunsetautos.com,555-600-1234,JDYH3Z4DVWZG9PK7R,Nissan,Sentra,2017,13030.00,2023-07-04,AZ,Sold
+14,1027,"Mark Roberts","Sales Advisor",2024-03-15,mark.roberts@sunsetautos.com,555-300-7890,WYZAMK2EKBFP136YL,Kia,Sportage,2020,25843.00,2025-10-19,CA,Sold
+12,1023,"George Baker","Sales Associate",NULL,george.baker@sunsetautos.com,555-431-7781,HV8WCR2DAPWPJTVXH,Ford,F-150,2020,38878.00,2022-05-23,GA,Sold
+5,1009,"Robert Thomas","Sales Associate",2021-02-28,robert.thomas@sunsetautos.com,555-411-8890,BXL60F4GS42F2WYRY,Toyota,Corolla,2021,22194.00,2022-08-17,NY,Sold
+11,1022,"Betty Green","Sales Advisor",2022-04-21,betty.green@sunsetautos.com,555-778-9900,865XXK5E75WUDZ9EW,Jeep,"Grand Cherokee",2018,30561.00,2022-05-10,TX,Pending
+10,1019,"Paul King","Sales Associate",2019-11-05,paul.king@sunsetautos.com,555-119-8877,79KD5GYF9MCS55L00,Chevrolet,Equinox,2020,24610.00,2023-10-22,MI,Sold
+1,1002,"Sarah Johnson","Sales Associate",2021-03-22,sarah.johnson@sunsetautos.com,555-310-8899,ZW2JFW1YJF490B0WM,Ford,Mustang,2019,31384.00,2023-10-07,CA,Delivered
+14,1027,"Mark Roberts","Sales Advisor",2024-03-15,mark.roberts@sunsetautos.com,555-300-7890,ML5C30S5V5RSW7N05,Ford,Explorer,2022,38741.00,2023-05-17,NULL,Sold
+10,1019,"Paul King","Sales Associate",2019-11-05,paul.king@sunsetautos.com,555-119-8877,U59K4FR5ZB3D290S1,Tesla,"Model 3",2021,38552.00,2023-01-30,FL,Pending
+2,1003,"Michael Brown","Sales Associate",2021-07-01,michael.brown@sunsetautos.com,555-444-1212,4HVSWHDS36EH8B9SK,Ford,Mustang,2017,NULL,2022-05-19,TX,Sold
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,NULL,Ford,Explorer,2020,32640.00,2025-06-10,MI,Cancelled
+4,1008,"Amanda Anderson","Sales Consultant",2022-06-25,amanda.anderson@sunsetautos.com,555-300-4567,H04251YM880UF4F4M,Honda,"Civic LX",2020,15285.00,2023-02-22,IL,Sold
+2,1004,"Emily Davis","General Manager",NULL,emily.davis@sunsetautos.com,555-999-1122,209LBK5CJES001CK5,Toyota,Tacoma,2016,28202.00,2023-10-19,NV,Sold
+4,1007,"Chris Taylor","Sales Associate",2023-01-10,chris.taylor@sunsetautos.com,555-870-1234,V8NHJE5M5FXZEVWLM,BMW,328i,2018,19206.00,NULL,VA,Sold
+5,1009,"Robert Thomas","Sales Associate",2021-02-28,robert.thomas@sunsetautos.com,555-411-8890,33EJXE56ZJMJ49DHK,Nissan,Leaf,2019,10090.00,2022-12-08,VA,Sold
+14,1027,"Mark Roberts","Sales Advisor",2024-03-15,mark.roberts@sunsetautos.com,555-300-7890,NULL,Honda,CR-V,2017,25361.00,2022-06-16,NC,Sold
+14,1028,"Lisa Carter","Sales Associate",2022-08-08,lisa.carter@sunsetautos.com,555-220-6677,DV13SLXXNL8968W8B,Honda,CR-V,2021,26937.00,2023-06-08,NY,Sold
+7,1014,"Barbara Lee","Sales Associate",2024-02-29,barbara.lee@sunsetautos.com,555-901-1002,2DN0VE195UHJG20Y0,Tesla,"Model Y",2021,49658.00,2023-07-17,AZ,Sold
+13,1025,"Edward Carter","Sales Associate",2021-01-04,edward.carter@sunsetautos.com,555-901-2211,98W7B0YH3WB7TRD7L,Chevrolet,Silverado,2017,36397.00,2025-10-13,FL,Sold
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,DJPX71XM6YZT7NSUW,Ford,F-150,2021,40526.00,2025-04-10,OH,"In Progress"
+7,1014,"Barbara Lee","Sales Associate",2024-02-29,barbara.lee@sunsetautos.com,555-901-1002,FZ5T7PNUUJGSSDRRD,Chevrolet,Tahoe,2019,39825.00,2023-06-22,CA,Sold
+15,1029,"Anthony Phillips","Internet Sales",2023-06-01,anthony.phillips@sunsetautos.com,555-789-1111,RCM3MC28MVCAWGYV6,Toyota,Tacoma,2019,NULL,2024-07-31,AZ,Delivered
+13,1025,"Edward Carter","Sales Associate",2021-01-04,edward.carter@sunsetautos.com,555-901-2211,249XF2GMJ7XSAT1S5,Toyota,Tacoma,2021,37933.00,2025-04-24,AZ,Sold
+4,1007,"Chris Taylor","Sales Associate",2023-01-10,chris.taylor@sunsetautos.com,555-870-1234,7K6037PSF50EHD9NK,Nissan,Leaf,2015,9219.00,2025-06-22,TX,"In Transit"
+8,1015,"Steven Perez","Internet Sales",2022-10-05,stephen.perez@sunsetautos.com,555-812-0000,APEC4ZEDE7CV3MJ30,Jeep,Wrangler,2017,32822.00,2023-11-30,VA,Sold
+14,1028,"Lisa Carter","Sales Associate",2022-08-08,lisa.carter@sunsetautos.com,555-220-6677,41RS6ZKUNHC3BSPEG,Ford,Fusion,2014,NULL,2024-09-28,CA,Sold
+4,1007,"Chris Taylor","Sales Associate",2023-01-10,chris.taylor@sunsetautos.com,555-870-1234,XSWKR3WUDM48DZ1X3,Honda,Civic,2017,18755.00,2023-03-18,NC,Delivered
+10,1020,"Nancy Wright","General Manager",2014-07-17,nancy.wright@sunsetautos.com,555-888-4321,0FNDU1CENP7PYWAPN,Jeep,"Grand Cherokee",2021,30519.00,2022-12-16,MI,"In Progress"
+5,1010,"Linda Jackson","Sales Associate",2017-12-15,linda.jackson@sunsetautos.com,555-200-7788,7XP0X3CRKBT3VKNYR,Honda,CR-V,2019,25292.00,2025-07-21,WA,Sold
+7,1014,"Barbara Lee","Sales Associate",2024-02-29,barbara.lee@sunsetautos.com,555-901-1002,DCEDA3JREKAP960D7,Hyundai,Tucson,2019,22978.00,2022-07-14,GA,Delivered
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,NULL,Ford,Mustang,2017,28602.00,2025-09-11,FL,Pending
+8,1015,"Steven Perez","Internet Sales",2022-10-05,stephen.perez@sunsetautos.com,555-812-0000,CMXBPK2EWLS1Y1JF9,Ford,Escape,2022,20713.00,NULL,OH,Delivered
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,1FVSEFUK1K1X0GFAW,Toyota,RAV4,2016,22257.00,2025-02-03,NY,Sold
+5,1010,"Linda Jackson","Sales Associate",2017-12-15,linda.jackson@sunsetautos.com,555-200-7788,SL1LJUWU8KEL4U3W7,Ford,Fusion,2014,8500.00,2023-12-24,NV,Delivered
+1,1002,"Sarah Johnson","Sales Associate",2021-03-22,sarah.johnson@sunsetautos.com,555-310-8899,JWXN7XM2XV8SX1U20,Honda,"Civic LX",2018,13641.00,2024-08-18,OR,Delivered
+11,1022,"Betty Green","Sales Advisor",2022-04-21,betty.green@sunsetautos.com,555-778-9900,WSTK41E57293C0FGS,BMW,328i,2016,21662.00,2023-09-02,PA,Sold
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,69KZB7GV3FHKZWY6P,Toyota,Tacoma,2016,28703.00,2023-02-24,TX,Sold
+13,1025,"Edward Carter","Sales Associate",2021-01-04,edward.carter@sunsetautos.com,555-901-2211,6R2MM42BN541APPUE,Ford,Fusion,2014,8500.00,2025-07-12,TX,Delivered
+14,1028,"Lisa Carter","Sales Associate",2022-08-08,lisa.carter@sunsetautos.com,555-220-6677,WFJXHSWHM0K913J14,Chevrolet,Tahoe,2021,45212.00,2024-09-21,NULL,Delivered
+4,1007,"Chris Taylor","Sales Associate",2023-01-10,chris.taylor@sunsetautos.com,555-870-1234,38358LFBRVCURVL68,Honda,"Civic LX",2013,8500.00,2022-02-25,NC,Delivered
+12,1023,"George Baker","Sales Associate",NULL,george.baker@sunsetautos.com,555-431-7781,ZF5HSPZ4LJPPDZULX,Jeep,Wrangler,2018,35508.00,2023-08-31,MS,Sold
+1,1002,"Sarah Johnson","Sales Associate",2021-03-22,sarah.johnson@sunsetautos.com,555-310-8899,28KU315EF29U068XA,BMW,X3,2016,32668.00,2025-02-15,VA,Pending
+13,1025,"Edward Carter","Sales Associate",2021-01-04,edward.carter@sunsetautos.com,555-901-2211,YDCG6BHL56A4NJWLU,Toyota,Tacoma,2022,37108.00,2023-02-22,NULL,Delivered
+4,1008,"Amanda Anderson","Sales Consultant",2022-06-25,amanda.anderson@sunsetautos.com,555-300-4567,AAYH4J7ER1FGGX0WJ,Hyundai,Kona,2021,22063.00,2025-11-21,TX,Delivered
+1,1001,"John Miller","Sales Associate",2022-03-14,john.miller@sunsetautos.com,555-213-7788,GJH1Z4XJSUFSVBWP9,Nissan,Leaf,2015,8500.00,2023-09-26,CO,Sold
+1,1002,"Sarah Johnson","Sales Associate",2021-03-22,sarah.johnson@sunsetautos.com,555-310-8899,NULL,Chevrolet,Malibu,2019,17124.00,2024-08-09,CO,Sold
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,SDSF4H6DWMHAJAL8Z,Ford,Fusion,2019,18344.00,2025-09-06,NY,"In Transit"
+11,1022,"Betty Green","Sales Advisor",2022-04-21,betty.green@sunsetautos.com,555-778-9900,0D8L0LTGHR9ACASC7,Ford,F-150,2020,39688.00,2025-03-31,CA,Sold
+11,1022,"Betty Green","Sales Advisor",2022-04-21,betty.green@sunsetautos.com,555-778-9900,MRC2E6VWXF6A0NVWS,Toyota,RAV4,2017,22823.00,2024-07-25,WA,"In Progress"
+13,1025,"Edward Carter","Sales Associate",2021-01-04,edward.carter@sunsetautos.com,555-901-2211,WGPS38DKUFCR306FG,Ford,Mustang,2015,26296.00,2024-05-19,CA,Delivered
+4,1007,"Chris Taylor","Sales Associate",2023-01-10,chris.taylor@sunsetautos.com,555-870-1234,GKGL56X3HZP5W6THF,Honda,CR-V,2021,27690.00,2025-10-23,TX,Pending
+2,1003,"Michael Brown","Sales Associate",2021-07-01,michael.brown@sunsetautos.com,555-444-1212,SG6GJHADRJN20FTEB,Hyundai,Elantra,2021,NULL,2023-09-26,NY,Sold
+5,1009,"Robert Thomas","Sales Associate",2021-02-28,robert.thomas@sunsetautos.com,555-411-8890,MUU5KCSV837DFU1J3,Ford,Mustang,2015,22410.00,2025-07-21,TX,Sold
+5,1010,"Linda Jackson","Sales Associate",2017-12-15,linda.jackson@sunsetautos.com,555-200-7788,BUD7ZRLGSSUDR1ZMM,Hyundai,Tucson,2020,23248.00,NULL,CA,Delivered
+15,1030,"Mary Campbell","Sales Associate",2022-12-12,mary.campbell@sunsetautos.com,555-678-9901,YNJYMXDBKKH0E02GY,Chevrolet,Silverado,2022,35573.00,2022-03-31,CA,Sold
+4,1008,"Amanda Anderson","Sales Consultant",2022-06-25,amanda.anderson@sunsetautos.com,555-300-4567,2CMXRG8KYESZXLFY5,Hyundai,Elantra,2018,17404.00,NULL,TX,Sold
+6,1012,"Patricia Harris","Sales Manager",2019-08-19,patricia.harris@sunsetautos.com,555-789-4561,RL5ECVBXTGEYL1LEF,Toyota,Camry,2021,24282.00,2025-11-23,IL,Delivered
+15,1029,"Anthony Phillips","Internet Sales",2023-06-01,anthony.phillips@sunsetautos.com,555-789-1111,SGD28KD0A4FV7NGBP,Ford,F-150,2020,40887.00,2023-02-28,TX,Sold
+15,1029,"Anthony Phillips","Internet Sales",2023-06-01,anthony.phillips@sunsetautos.com,555-789-1111,DKGFZ3RD137S7WF2C,Honda,"Civic LX",2015,8500.00,2025-10-22,TX,Pending
+6,1012,"Patricia Harris","Sales Manager",2019-08-19,patricia.harris@sunsetautos.com,555-789-4561,TXEF12XU6A3H3KKGG,BMW,328i,2014,19306.00,2022-04-18,MS,Delivered
+10,1019,"Paul King","Sales Associate",2019-11-05,paul.king@sunsetautos.com,555-119-8877,SD7U0BYWWU8GRJW5X,Nissan,Leaf,2013,NULL,2024-09-07,IL,Sold
+7,1014,"Barbara Lee","Sales Associate",2024-02-29,barbara.lee@sunsetautos.com,555-901-1002,BMNNDSC6D0NU0692H,Chevrolet,Tahoe,2015,36000.00,2023-06-15,CO,"In Progress"
