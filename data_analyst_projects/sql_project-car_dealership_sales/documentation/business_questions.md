@@ -391,8 +391,6 @@ The analysis identified specific combinations of dealership, state, brand and sa
 
 For example, one dealership-state-brand-salesperson combination achieved a high completed sales rate, suggesting strong conversion performance for that specific segment.
 
-However, these results should always be interpreted together with the total number of records in the group. A high percentage based on a small number of records may not be enough to support a strong business conclusion.
-
 ---
 
 # Business Question 7
@@ -447,8 +445,6 @@ This analysis helps answer:
 Spring and fall appeared to be stronger sales periods, while winter showed weaker performance.
 
 This may indicate a seasonal sales pattern, which is common in vehicle sales due to consumer behaviour, weather conditions, promotional campaigns, tax periods or dealership stock cycles.
-
-A longer historical dataset would be needed to confirm whether this is a stable seasonal pattern.
 
 ---
 
