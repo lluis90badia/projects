@@ -845,57 +845,6 @@ Possible questions:
 
 ---
 
-## Recommended Query Pattern
-
-A typical analytical query should start from `fact_sales` and join only the dimensions required for the analysis.
-
-Example:
-
-```sql
-SELECT
-    dv.vehicle_brand,
-    dv.vehicle_model,
-    SUM(fs.sale_count) AS total_sales_records,
-    SUM(fs.sale_amount_usd) AS total_sales_amount
-FROM
-    fact_sales fs
-JOIN
-    dim_vehicle dv
-        ON fs.vehicle_key = dv.vehicle_key
-GROUP BY
-    dv.vehicle_brand,
-    dv.vehicle_model
-ORDER BY
-    total_sales_amount DESC;
-```
-
-For completed sales analysis, `dim_sale_status` should be included:
-
-```sql
-SELECT
-    dv.vehicle_brand,
-    dv.vehicle_model,
-    SUM(fs.sale_count) AS completed_sales,
-    SUM(fs.sale_amount_usd) AS completed_revenue
-FROM
-    fact_sales fs
-JOIN
-    dim_vehicle dv
-        ON fs.vehicle_key = dv.vehicle_key
-JOIN
-    dim_sale_status dss
-        ON fs.sale_status_key = dss.sale_status_key
-WHERE
-    dss.sale_status IN ('Sold', 'Delivered')
-GROUP BY
-    dv.vehicle_brand,
-    dv.vehicle_model
-ORDER BY
-    completed_revenue DESC;
-```
-
----
-
 ## Design Decisions
 
 ### 1. Surrogate Keys Are Used
