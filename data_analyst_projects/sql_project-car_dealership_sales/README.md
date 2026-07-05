@@ -1,5 +1,17 @@
 # Car Dealership Sales SQL Project
 
+By [Lluis Badia Planes](https://github.com/lluis90badia/projects)
+
+---
+
+## Content
+
+- [Project Home page](https://github.com/lluis90badia/projects/tree/main/data_analyst_projects/sql_project-car_dealership_sales)
+- [Documentation](https://github.com/lluis90badia/projects/tree/main/data_analyst_projects/sql_project-car_dealership_sales/documentation)
+- [SQL files](https://github.com/lluis90badia/projects/tree/main/data_analyst_projects/sql_project-car_dealership_sales/sql)
+
+---
+
 ## Overview
 
 This project demonstrates an end-to-end SQL workflow in **MySQL** using a fictional US car dealership sales dataset.
